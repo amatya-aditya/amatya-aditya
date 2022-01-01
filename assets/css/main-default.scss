@@ -11,13 +11,14 @@ $base-fw:          400;
 $small-fs:         $base-fs * 0.775;
 $base-lh:          1.7;
 $color:            #111;
-$brand-color:      #3f6579;
-$h-color:          #eee;
+$brand-color:      #6e7880;
+$h-color:          rgb(170, 170, 170);
 $grey-color:       #9b9b9b;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $sidebar: lighten($brand-color, 45%);
 $navbar: lighten($brand-color, 15%);
+$link:             #197aa0;
 
 $theme-colors: (
   "primary": $brand-color

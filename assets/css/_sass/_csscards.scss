@@ -24,7 +24,7 @@
   transform: translateY(-5px);
   border: none;
   box-shadow: 0px 4px 15px rgba(38, 38, 38, 0.2);
-  background-color: #cccccc70;
+  background-color: #cccccc23;
 
   .carded-header img {
   transform: scale(1.1, 1.04);
@@ -36,8 +36,6 @@
   object-fit: cover;
   transition: all 0.5s ease-in;
 }
-
-
 
 .carded-body {
   display: flex;
