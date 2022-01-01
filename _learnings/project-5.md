@@ -1,5 +1,5 @@
 ---
-title: Typical Project 2
+title: Heat Exchanger
 image: /assets/images/nishant-parikh-342424-unsplash.jpg
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatibus, odio. Saepe dolorem magni qui, porro consectetur quia nobis! Doloribus mollitia id labore placeat autem cum rem, dolorum quos nesciunt.
 company: Another Company

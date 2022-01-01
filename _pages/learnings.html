@@ -74,14 +74,19 @@ description: Curious Mind tends to Learn new things
                                 </div>
                                 <div class="carded-body">
 
-                                    <h4>
-                                        {{item.title}}
-                                    </h4>
-                                    <p>
-                                        {{item.content | strip_html | truncate: 110 }}
-                                    </p>
+                                    <div class="carded-main">
 
-                                    <div style="display: flex;">
+                                        <h4>
+                                            {{item.title}}
+                                        </h4>
+                                        <p>
+                                            {{item.content | strip_html | truncate: 110 }}
+                                        </p>
+
+                                        
+                                    </div>
+
+                                    <div class="tagged">
 
                                         {% if item.tags[0] %}<div class="tag tag-teal">{{item.tags[0] }}</div>
                                         {% endif %}
@@ -103,12 +108,8 @@ description: Curious Mind tends to Learn new things
 
                                             <small>
                                                 <time id="postedon" datetime="{{ item.date | date_to_xmlschema }}">
-                                                    {{ item.date | date: "%B %-d, %Y" }}
+                                                    Posted on {{ item.date | date: "%B %-d, %Y" }}
                                                 </time>
-                                            </small>
-                                            <small>
-                                                <a href="{{item.url  | relative_url }}"
-                                                    style="position:relative; margin-left:0.5em;">Read more..</a>
                                             </small>
                                         </div>
                                     </div>

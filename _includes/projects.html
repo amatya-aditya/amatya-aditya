@@ -25,15 +25,18 @@
                     <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
                 </div>
                 <div class="carded-body">
+                    <div class="carded-main">
 
-                    <h4>
-                        {{item.title}}
-                    </h4>
-                    <p>
-                        {{item.content | strip_html | truncate: 110 }}
-                    </p>
+                        <h4>
+                            {{item.title}}
+                        </h4>
+                        <p>
+                            {{item.content | strip_html | truncate: 110 }}
+                        </p>
+                        
+                    </div>
 
-                    <div style="display: flex;">
+                    <div class="tagged">
 
                         {% if item.tags[0] %}<div class="tag tag-teal">{{item.tags[0] }}</div> {% endif %}
                         {% if item.tags[1] %} <div class="tag tag-teal">{{item.tags[1] }}</div> {% endif %}
@@ -49,15 +52,12 @@
 
                             <small>
                                 <time id="postedon" datetime="{{ item.date | date_to_xmlschema }}">
-                                    {{ item.date | date: "%B %-d, %Y" }}
+                                    Posted on {{ item.date | date: "%B %-d, %Y" }}
                                 </time>
                             </small>
-                            <small>
-                                <a href="{{item.url  | relative_url }}"
-                                    style="position:relative; margin-left:0.5em;">Read
-                                    more ..</a>
-                            </small>
+                            
                         </div>
+                       
                     </div>
                 </div>
             </div>
