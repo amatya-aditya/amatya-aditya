@@ -1,0 +1,54 @@
+<div class="sidebar">
+
+    
+
+    <div class="author-container shadow">
+     <div class="author"><img src="{{site.data.main.image | relative_url}}" width="100%" height="auto;" alt="{{site.title}}" onclick="location.href='{{site.baseurl}}/'"></div>
+     <div class="about text-center">
+         <h2 class="title"><a href='{{site.baseurl}}/'>{{site.data.main.name}}</a></h2>
+         <div style="font-size:0.9em; font-weight: 400; text-align: center;">BE, Mechanical Engineering</div>
+         <div style="font-size:0.9em; font-weight: 400; text-align: center;">IOE, Pulchowk Campus</div>
+     </div>
+    
+
+     <div class="social">
+         
+
+         <ul class="sm p0 m0a">
+           
+            {% if site.data.main.social.googlescholar.link %}
+            <li><a href="{{site.data.main.social.googlescholar.link}}" target="_blank"><i
+                        class="ai {{site.data.main.social.googlescholar.icon}}"></i></a></li>
+            {% endif %}
+
+            {% if site.data.main.social.researchgate.link %}
+            <li><a href="{{site.data.main.social.researchgate.link}}" target="_blank"><i
+                        class="ai {{site.data.main.social.researchgate.icon}}"></i></a></li>
+            {% endif %}
+
+            {% if site.data.main.social.linkedin.link %}
+            <li><a href="{{site.data.main.social.linkedin.link}}" target="_blank"><i
+                        class="fa {{site.data.main.social.linkedin.icon}}"></i></a></li>
+            {% endif %}
+
+           {% if site.data.main.social.twitter.link %}
+             <li><a href="{{site.data.main.social.twitter.link}}" target="_blank"><i
+                         class="fa {{site.data.main.social.twitter.icon}}"></i></a></li>
+           {% endif %}
+
+
+
+         </ul>
+     </div>
+
+     <div style="padding:1em;">
+         <div class="input-group mb-3" data-aos="zoom-in">
+             <input type="text" placeholder="Search.." class="form-control border-right-0" id="search-input" />
+             <div class="input-group-append">
+                 <span class="input-group-text"><i class="fa fa-search"></i></span>
+             </div>
+         </div>
+     </div>
+         
+     </div>
+</div>
