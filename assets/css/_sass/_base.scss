@@ -75,7 +75,8 @@ p {
 }
 
 a {
- 
+
+  color:$brand-color;
   cursor: pointer;
   text-decoration: none;
   &:hover {
