@@ -15,10 +15,10 @@ url: https://amatya-aditya.github.io/portfolio/
 
 baseurl: ""
 
-buy-link: 
-  rzp: https://rzp.io/l/blackcurrant-theme
-  pp: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TM7X9TE7KMKN
-# For more customizations, go to  _data/main.yml
+# buy-link: 
+#   rzp: https://rzp.io/l/blackcurrant-theme
+#   pp: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TM7X9TE7KMKN
+# # For more customizations, go to  _data/main.yml
 
 # Kramdown is the default markdown processor used. It is supported by Github.
 markdown: kramdown
@@ -58,7 +58,7 @@ share: yes
 # Comments by Disqus
 # Sign up with Disqus to get your shortcode. Leave it blank if you do not want to run diqus code on the website.
 # Leave it blank to remove disqus completely.
-disqus: https://https-amatya-aditya-github-io-portfolio
+disqus: https://https-amatya-aditya-github-io
 
 
 # Define whether recent posts should be shown at the bottom of each post.
