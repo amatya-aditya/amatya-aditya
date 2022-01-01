@@ -19,6 +19,8 @@ description: Find all the posts here.
 
 {% endfor %} {% include pagination.html %} -->
 
+<h3>Coming Soon !!! </h3>
+
 <div class="articlecardeds">
 
     <div class="container-cards">
@@ -36,7 +38,7 @@ description: Find all the posts here.
                             {{item.title}}
                         </h4>
                         <p>
-                            {{item.content | strip_html | truncate: 110 }}
+                            {{item.description | strip_html | truncate: 110 }}
                         </p>
                     </div>
 

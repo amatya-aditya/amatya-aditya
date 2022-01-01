@@ -86,13 +86,28 @@
   images:
     - src: /images/projects/munal/fabricated-model.jpg
       title: Fabricated Model of the UAV
-      alt: This slider has caption titles
-    - data-src: /images/projects/munal/1.jpg
-      title: This slider uses the fade effect
-      alt: Instead of the default slide effect
+    - src: /images/projects/munal/1.jpg
+      title: Coefficient of moment about neutral point
     - data-src: /images/projects/munal/2.jpg
     - src: /images/projects/munal/8.jpg
-      alt: Links work too
   settings:
     height: 400
     effect: "'fade'"
+
+- selector: bat
+
+- selector: firefighter
+
+- selector: carburetor
+
+- selector: engineblock
+
+- selector: crankshaft
+
+- selector: wheelrim
+
+- selector: cyclone-separator
+
+- selector: spindle
+
+- selector: heat-exchanger

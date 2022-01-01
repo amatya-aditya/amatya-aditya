@@ -1,71 +1,11 @@
 [
 
 {
-"category": "",
-"title": "Typical Project 1",
-"description": "Sed eget tempor eros. Nam laoreet venenatis efficitur. Etiam sit amet dapibus...",
-"url": "/projects/project-4/",
-"image": "/assets/images/samuel-zeller-72120-unsplash.jpg",
-"author": ""
-}
-,
-
-{
-"category": "",
-"title": "Typical Project 2",
-"description": "Sed eget tempor eros. Nam laoreet venenatis efficitur. Etiam sit amet dapibus...",
-"url": "/projects/project-5/",
-"image": "/assets/images/nishant-parikh-342424-unsplash.jpg",
-"author": ""
-}
-,
-
-{
-"category": "",
-"title": "Typical Project 3",
-"description": "Sed eget tempor eros. Nam laoreet venenatis efficitur. Etiam sit amet dapibus...",
-"url": "/projects/project-6/",
-"image": "/assets/images/henry-co-481270-unsplash.jpg",
-"author": ""
-}
-,
-
-{
-"category": "",
-"title": "Design",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia erat e...",
-"url": "/projects/design/",
-"image": "/assets/images/etienne-girardet-360034-unsplash.jpg",
-"author": ""
-}
-,
-
-{
-"category": "",
-"title": "Minimalist",
-"description": "Aliquam egestas ante vel urna tempor, ut posuere diam efficitur. Lorem ipsum ...",
-"url": "/projects/minimalist%20copy/",
-"image": "/assets/images/bogdan-dada-111692-unsplash.jpg",
-"author": ""
-}
-,
-
-{
-"category": "",
-"title": "Minimalist",
-"description": "Aliquam egestas ante vel urna tempor, ut posuere diam efficitur. Lorem ipsum ...",
-"url": "/projects/minimalist/",
-"image": "/assets/images/bogdan-dada-111692-unsplash.jpg",
-"author": ""
-}
-,
-
-{
-"category": "",
-"title": "Typography",
-"description": "Sed eget tempor eros. Nam laoreet venenatis efficitur. Etiam sit amet dapibus...",
-"url": "/projects/typography/",
-"image": "/assets/images/w-349443-unsplash.jpg",
+"category": "design",
+"title": "BAT",
+"description": "Buoyancy Assisted Trash Cleaner (BAT)Buoyancy Assisted Trash Cleaner (BAT) wa...",
+"url": "/projects/bat/",
+"image": "/images/projects/bat/bat-latest.jpg",
 "author": ""
 }
 ,
@@ -73,153 +13,93 @@
 {
 "category": "UAV, Fluid",
 "title": "Munal M-72",
-"description": "Munal M-72 is a fixed-wing RC plane developed as the final year project to me...",
+"description": "Munal M-72Munal M-72 is a fixed-wing RC plane developed as the final year pro...",
 "url": "/projects/munal/",
 "image": "/images/projects/munal/fabricated-model.jpg",
 "author": ""
 }
-
-
 ,
 
 {
-"category": "blog",
-"title": "Blackcurrant Jekyll Theme",
-"description": "Image Credits: Fruit LayerAditya Amatya is a Jekyll theme suitable for person...",
-"url": "/blog/blackcurrant/",
-"image": "/assets/images/blackcurrant.jpg",
-"author": "John Doe"
-}
-,
-
-{
-"category": "blog, experience",
-"title": "Trip to Italy!",
-"description": "As in other arts, the definitions of amateur and professional are not entirel...",
-"url": "/blog/trip-to-italy/",
-"image": "/assets/images/samuel-zeller-103112.jpg",
-"author": "John Doe"
-}
-,
-
-{
-"category": "blog, adventure",
-"title": "Nashville Graffity!",
-"description": "Campanula is one of several genera in the family Campanulaceae with the commo...",
-"url": "/blog/nashville-graffity/",
-"image": "/assets/images/katy-belcher-342066.jpg",
-"author": "John Doe"
-}
-,
-
-{
-"category": "blog, work",
-"title": "Silver Surfer",
-"description": "Yoga is a group of physical, mental, and spiritual practices or disciplines w...",
-"url": "/blog/silver-surfer/",
-"image": "/assets/images/anastasia-hofmann-412116.jpg",
-"author": "John Doe"
-}
-,
-
-{
-"category": "blog, travel",
-"title": "An ideal breakfast!",
-"description": "Goa is a state in India within the coastal region known as the Konkan in Indi...",
-"url": "/blog/ideal-breakfast/",
-"image": "/assets/images/maarten-van-den-heuvel-400626.jpg",
-"author": "John Doe"
-}
-,
-
-{
-"category": "blog, projects",
-"title": "Designing a Flag",
-"description": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
-"url": "/blog/designing-another-flag/",
-"image": "/assets/images/shubham-beeharry-223969.jpg",
-"author": "John Doe"
-}
-,
-
-{
-"category": "blog, projects",
-"title": "Designing a Flag",
-"description": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
-"url": "/blog/designing-a-flag/",
-"image": "/assets/images/shubham-beeharry-223969.jpg",
-"author": "John Doe"
+"category": "design",
+"title": "The FireFighter",
+"description": "The FireFighterThe FireFighter was an autonomous prototype robot that could s...",
+"url": "/projects/thefirefighter/",
+"image": "/images/projects/firefighter/firefighter-1.jpg",
+"author": ""
 }
 
 
 ,
 
+,
+
 {
-"category": "design, numerical-methods",
-"title": "Typical Project Heat",
-"description": "Sed eget tempor eros. Nam laoreet venenatis efficitur. Etiam sit amet dapibus...",
-"url": "/learnings/project-4/",
-"image": "/assets/images/samuel-zeller-72120-unsplash.jpg",
+"category": "simulation",
+"title": "Carburetor",
+"description": "Design and Flow analysis through Perforated tube in Carburetor  ",
+"url": "/learnings/carburetor/",
+"image": "/images/ansys-simulation/carburetor/section view - model2.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "numerical-methods, python, simulation",
-"title": "ImageSlider",
-"description": "slider 1  slider 2same images, different settings.  ",
-"url": "/learnings/imageslider/",
-"image": "/assets/images/samuel-zeller-72120-unsplash.jpg",
+"category": "simulation",
+"title": "Crankshaft",
+"description": "Design and Structural Analysis of Crankshaft  ",
+"url": "/learnings/crankshaft/",
+"image": "/images/ansys-simulation/crankshaft/model.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "",
+"category": "simulation",
+"title": "Cyclone Separator",
+"description": "Design and CFD Analysis of Cyclone Separator  ",
+"url": "/learnings/cycloneseparator/",
+"image": "/images/ansys-simulation/cyclone separator/model.jpg",
+"author": ""
+}
+,
+
+{
+"category": "simulation",
+"title": "Engine Block",
+"description": "Design and Analysis of Engine Block  ",
+"url": "/learnings/engineblock/",
+"image": "/images/ansys-simulation/engine-block/model.png",
+"author": ""
+}
+,
+
+{
+"category": "simulation",
 "title": "Heat Exchanger",
-"description": "Sed eget tempor eros. Nam laoreet venenatis efficitur. Etiam sit amet dapibus...",
-"url": "/learnings/project-5/",
-"image": "/assets/images/nishant-parikh-342424-unsplash.jpg",
+"description": "Design and CFD Analysis of Heat Exchanger  ",
+"url": "/learnings/heat-exchanger/",
+"image": "/images/ansys-simulation/heat-exchanger/modelwithbaffle.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "",
-"title": "Typical Project 3",
-"description": "Sed eget tempor eros. Nam laoreet venenatis efficitur. Etiam sit amet dapibus...",
-"url": "/learnings/project-6/",
-"image": "/assets/images/henry-co-481270-unsplash.jpg",
+"category": "simulation",
+"title": "Spindle",
+"description": "Design and Structural Analysis of Spindle  ",
+"url": "/learnings/spindle/",
+"image": "/images/ansys-simulation/Spindle/model.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "numerical-methods, python, simulation, fluid, machine-learning",
-"title": "Design",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia erat e...",
-"url": "/learnings/design/",
-"image": "/assets/images/etienne-girardet-360034-unsplash.jpg",
-"author": ""
-}
-,
-
-{
-"category": "simulation, fluid, machine-learning",
-"title": "Minimalist",
-"description": "Aliquam egestas ante vel urna tempor, ut posuere diam efficitur. Lorem ipsum ...",
-"url": "/learnings/minimalist/",
-"image": "/assets/images/bogdan-dada-111692-unsplash.jpg",
-"author": ""
-}
-,
-
-{
-"category": "design, simulation",
-"title": "Typography",
-"description": "Sed eget tempor eros. Nam laoreet venenatis efficitur. Etiam sit amet dapibus...",
-"url": "/learnings/typography/",
-"image": "/assets/images/w-349443-unsplash.jpg",
+"category": "simulation",
+"title": "Wheel Rim",
+"description": "Design and Structural Analysis of Wheel Rim  ",
+"url": "/learnings/wheelrim/",
+"image": "/images/ansys-simulation/wheel rim/model.jpg",
 "author": ""
 }
 

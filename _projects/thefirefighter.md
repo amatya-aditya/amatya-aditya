@@ -1,3 +1,19 @@
-The FireFighter was an autonomous prototype robot that could sense fire/flames and navigate to the site of fire and automatically extinguish the flame by pumping water from the on-board water tank.
+---
+layout: post-slider-toc
+title: The FireFighter
+image: /images/projects/firefighter/firefighter-1.jpg
+description: The FireFighter was an autonomous prototype robot that could sense fire/flames and navigate to the site of fire and automatically extinguish the flame by pumping water from the on-board water tank. This project won the title of the design competition in MechTRIX 2016.
+date:  2020-04-12
+image_sliders:
+  - firefighter
+categories:
+  - design 
+tags:
+ - robotics
+---
 
-This project won the title of the design competition in MechTRIX 2016.
+## The FireFighter
+
+The FireFighter was an autonomous prototype robot that could sense fire/flames and navigate to the site of fire and automatically extinguish the flame by pumping water from the on-board water tank. This project won the title of the design competition in MechTRIX 2016.
+
+{% include slider.html selector="firefighter" %}
