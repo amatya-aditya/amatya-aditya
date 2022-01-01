@@ -13,7 +13,7 @@ title: Aditya Amatya
 description: A personal Portfolio
 url: https://amatya-aditya.github.io/portfolio/
 
-baseurl: "/portfolio"
+baseurl: ""
 
 buy-link: 
   rzp: https://rzp.io/l/blackcurrant-theme

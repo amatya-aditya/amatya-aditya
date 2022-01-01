@@ -8,22 +8,25 @@ description: I care about my readers' opinions. Please leave a note or just say 
 ### Write to me
 I care about my readers' opinions. Please leave a note or just say hello.
 
-
-<!-- <form action="https://formspree.io/{{site.data.main.email}}" method="POST"> -->
-<form action="https://formspree.io/f/mwkyppdk" method="POST">
+<form accept-charset="utf-8" action="https://formspree.io/f/mwkyppdk" method="POST">
     <div class="form-group">
-    <label for="email">Name</label>
-    <input type="name" name="content" class="form-control" placeholder="Enter name">
+
+    <label for="full-name">Full Name</label>
+
+    <input type="text" name="name"  class="form-control" placeholder="First and Last" required="">
+
   </div>
 
   <div class="form-group">
     <label for="email">Email address</label>
     <input type="email" name="_replyto" class="form-control" placeholder="Enter email">
   </div>
+
   <div class="form-group">
     <label for="message">Example textarea</label>
     <textarea class="form-control" name="content" id="" rows="3" placeholder="Enter your message"></textarea>
   </div>
+
   <input type="hidden" name="_next" value="{{site.url}}{{page.url}}">
   <input type="hidden" name="_subject" value="New Contact Form Submission">
   <input type="text" name="_gotcha" style="display:none">
