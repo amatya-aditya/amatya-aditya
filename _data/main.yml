@@ -14,10 +14,10 @@ email: contact.aditya091@gmail.com # The contact form submissions will be receiv
 # There are 5 color schemes to choose from.
 # The one at the bottom takes precedence.
 color-scheme: orange
-color-scheme: pink
+color-scheme: green
 color-scheme: purple
 color-scheme: blue
-color-scheme: green
+color-scheme: default
 
 
 # Set this to false in production

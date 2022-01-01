@@ -38,7 +38,7 @@
     rel="stylesheet"
     href="{{'/assets/css/main-default.css' | relative_url }}"
   />
-  {% if site.data.main.color-scheme == 'green' %}
+  {% if site.data.main.color-scheme == 'default' %}
   <link
     id="color-scheme"
     rel="stylesheet"
@@ -56,11 +56,11 @@
     rel="stylesheet"
     href="{{'/assets/css/main-purple.css' | relative_url }}"
   />
-  {% elsif site.data.main.color-scheme == 'pink' %}
+  {% elsif site.data.main.color-scheme == 'green' %}
   <link
     id="color-scheme"
     rel="stylesheet"
-    href="{{'/assets/css/main-pink.css' | relative_url }}"
+    href="{{'/assets/css/main-green.css' | relative_url }}"
   />
   {% elsif site.data.main.color-scheme == 'orange' %}
   <link
@@ -96,7 +96,7 @@
   />
   <link
     rel="shortcut icon"
-    href="{{'/favicon.ico' | relative_url }}"
+    href="{{'assets/img/favicon.ico' | relative_url }}"
     type="image/x-icon"
   />
   <link

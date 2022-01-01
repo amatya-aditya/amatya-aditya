@@ -15,7 +15,7 @@
 
     <div class="container-cards">
         {% assign sorted = site.learnings | sort: 'date' | reverse %} {% for item in sorted limit:6 %}
-        <a href="{{item.url  | relative_url }}" class="nostyle">
+        <a href="{{item.url  | relative_url }}" #disqus_thread class="nostyle">
             <div class="carded">
                 <div class="carded-header">
                     <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
