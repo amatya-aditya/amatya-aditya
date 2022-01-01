@@ -1,0 +1,24 @@
+/* Add your own style here */
+.btn-primary {
+    color: rgb(255, 255, 255) !important;
+    background-color: $navbar !important;
+    border-color: $navbar !important;
+    border-radius: 0.7em !important;
+    padding-top: 1em;
+}
+
+// .btn-success {
+//     color: #fff;
+//     background-color: $brand-color;
+//     border-color: $brand-color;
+//     display: flex !important;
+//     margin: 0 auto;
+//     height: 2em;
+//     margin-top: -1.8em;
+//     font-size: 1em;
+//     pointer-events: none;
+// }
+
+.recommendations-layout {
+    display: none !important;
+}

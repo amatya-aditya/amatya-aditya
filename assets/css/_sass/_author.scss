@@ -1,0 +1,39 @@
+
+/***
+ *                                                     
+ *      ,---.            ,--.  ,--.                    
+ *     /  O  \ ,--.,--.,-'  '-.|  ,---.  ,---. ,--.--. 
+ *    |  .-.  ||  ||  |'-.  .-'|  .-.  || .-. ||  .--' 
+ *    |  | |  |'  ''  '  |  |  |  | |  |' '-' '|  |    
+ *    `--' `--' `----'   `--'  `--' `--' `---' `--'    
+ *                                                     
+ */
+
+.author-container {
+    
+    position: sticky;
+    top: 49px;
+    padding-bottom: 10px;
+    min-height:100vh;
+    
+    .title {
+        margin: 0.25em;
+    }
+}
+
+
+
+.author {
+    img {
+        cursor: pointer;
+        padding: 1em;
+        border-radius: 50%;
+        width:65%;
+        display:flex;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 600px){
+.author img {
+    display: none;
+}}

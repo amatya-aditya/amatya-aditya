@@ -1,0 +1,72 @@
+---
+layout: page
+title: Articles
+description: Find all the posts here.
+---
+
+
+
+<!-- {% for post in paginator.posts %}
+<a class="nostyle" href="{{post.url | relative_url }}">
+  <div class="blog cards borders blog-list" data-aos="fade-up">
+    <div class="image" style="background-image: url({{post.image | relative_url}});"></div>
+    <div class="content">
+      <h3 class="title">{{post.title}}</h3>
+      <p class="description">{{post.content | strip_html | truncate: 180 }}</p>
+    </div>
+  </div>
+</a>
+
+{% endfor %} {% include pagination.html %} -->
+
+<div class="articlecardeds">
+
+    <div class="container-cards">
+        {% for item in paginator.posts %}
+        <a href="{{item.url  | relative_url }}" class="nostyle">
+            <div class="carded">
+                <div class="carded-header">
+                    <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                </div>
+                <div class="carded-body">
+
+                    <div class="carded-main">
+
+                        <h4>
+                            {{item.title}}
+                        </h4>
+                        <p>
+                            {{item.content | strip_html | truncate: 110 }}
+                        </p>
+                    </div>
+
+                    <div class="tagged">
+
+                        {% if item.tags[0] %}<div class="tag tag-teal">{{item.tags[0] }}</div> {% endif %}
+                        {% if item.tags[1] %} <div class="tag tag-teal">{{item.tags[1] }}</div> {% endif %}
+                        {% if item.tags[2] %} <div class="tag tag-teal">{{item.tags[2] }}</div> {% endif %}
+                        {% if item.tags[3] %} <div class="tag tag-teal">{{item.tags[3] }}</div> {% endif %}
+                        {% if item.tags[4] %} <div class="tag tag-teal">{{item.tags[4] }}</div> {% endif %}
+                        {% if item.tags[5] %} <div class="tag tag-teal">{{item.tags[5] }}</div> {% endif %}
+
+                    </div>
+
+                    <div class="user">
+                        <div class="user-info">
+
+                            <small>
+                                <time id="postedon" datetime="{{ item.date | date_to_xmlschema }}">
+                                    Posted on {{ item.date | date: "%B %-d, %Y" }}
+                                </time>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+
+    </div>
+</div>
+
+{% include pagination.html %}
