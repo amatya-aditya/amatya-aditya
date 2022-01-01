@@ -23,7 +23,7 @@ I care about my readers' opinions. Please leave a note or just say hello.
   </div>
 
   <div class="form-group">
-    <label for="message">Example textarea</label>
+    <label for="message">Message</label>
     <textarea class="form-control" name="content" id="" rows="3" placeholder="Enter your message"></textarea>
   </div>
 
