@@ -235,6 +235,17 @@ padding-top:1em;
   }
 }
 
+.intro{
+    a {
+        text-decoration: underline;
+    }
+}
+
+p{
+        font-size: 1.1em;
+        line-height: 1.7em;
+}
+
 /* Used for animation by viewport checker */
 .hidden {
   opacity: 0;

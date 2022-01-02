@@ -3,8 +3,8 @@ $content-width: 1200px;
 $breakpoint: 799px;
 $nav-height: 50px;
 $nav-background: $navbar;
-$nav-font-color: #0f0f0f;
-$link-hover-color: #66666615;
+$nav-font-color: #fdfcfc;
+$link-hover-color: #5252529d;
 
 // Outer navigation wrapper
 .navigation {
@@ -22,11 +22,15 @@ $link-hover-color: #66666615;
     
 .active{
     background: $link-hover-color;
-    color: rgb(8, 8, 8) !important;
 }
 
 .navactive {
-    color: rgb(255, 249, 249) !important;
+    background-color: $link-hover-color !important;
+    border-radius: 0.3em;
+}
+
+.navactive background-color{
+    max-height:2.5em !important;
 }
 
 // Logo and branding

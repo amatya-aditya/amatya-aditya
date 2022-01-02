@@ -21,7 +21,7 @@ color-scheme: default
 
 
 # Set this to false in production
-color-scheme-changer-widget: true
+color-scheme-changer-widget: false
 
 
 
