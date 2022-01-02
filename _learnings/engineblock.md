@@ -13,6 +13,6 @@ tags:
  - structural
 ---
 
-## Design and Analysis of Engine Block
+<div style="text-align:center;padding-top:2em;"> <h2>Design and Analysis of Engine Block</h2> </div>
 
 {% include slider.html selector="engine-block" %}

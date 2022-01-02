@@ -3,10 +3,12 @@
     <p class="categories" data-aos="fade-up">
       {% for item in page.categories %}
       <span
-        ><a href="{{'/categories/' | relative_url }}#{{item | slugify }}"
-          >{{item | capitalize}}</a
-        ></span
+        >{{item | upcase }}
+        </span
       >{% endfor %}
+
+      {% for item in page.tags %}
+      <span>{{item | upcase }}</span>{% endfor %}
     </p>
   </div>
 </div>

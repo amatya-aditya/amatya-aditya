@@ -3169,6 +3169,7 @@ fieldset:disabled .btn {
     color: #fff;
     background-color: #0d6efd;
     border-color: #0d6efd;
+    margin-top: 2em !important;
 }
 
 .btn-primary:hover {
@@ -7384,17 +7385,22 @@ fieldset:disabled .btn {
 }
 
 .rounded a{
-    color:#099d9d;
+    color:#3f75cf;
+    background-color:none !important;
+    
 }
+
 
 .rounded a:hover{
     color:#2c2c2c !important;
 }
 
-.rounded a:active{
-    color:#2c2c2c !important;
-}
 
+
+.border{
+    box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
+    -webkit-box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
+}
 
 .border {
     border: 1px solid #dee2e6 !important;
