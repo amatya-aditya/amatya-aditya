@@ -121,6 +121,7 @@ nav {
     padding: $nav-height 0 15px;
     ul {
       display: none;
+      background-color: $nav-background;
       li {
         float: none;
         a {
