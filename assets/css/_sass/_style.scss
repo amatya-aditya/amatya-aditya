@@ -78,7 +78,7 @@ a.nostyle {
 //   min-height: 100vh;
   @include media-query($on-palm) {
     display: block;
-    grid-template-columns: repeat(13, 1fr);
+    grid-template-columns: repeat(13, 0.5fr);
     
   }
   padding-right:1.1em;
@@ -113,7 +113,7 @@ a.nostyle {
 }
 
 .main-post {
-  grid-column: 2 / 11;
+  grid-column: 2 / 10;
 //   border-top: 10px solid $brand-color;
   @include media-query($on-laptop) {
     grid-column: 1 / 11;
@@ -125,28 +125,22 @@ a.nostyle {
     padding-left:1em;
 }
 .outline{
-grid-column: 11 / 14;
-box-shadow: 0 0.1rem 0.1rem #00000026 !important;
-border-left: 1px dashed $sidebar;
+grid-column: 10 / 14;
 position: sticky;
-top: 3em;
+top: 0;
+margin-left: 3.5em;
+margin-top:2em;
 height: 100vh;
 overflow-y: auto;
-padding-top:1em;
+padding-top:em;
 @include media-query($on-laptop) {
     grid-column: 11 / 14;
   }
 }
 
-.outline::-webkit-scrollbar {
-  display: none;
-}
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.outline {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
+
+
 
 
 
@@ -252,16 +246,15 @@ padding-top:1em;
 }
 
 .tagbox{
-    padding: 0.5em 5em 0.5em 5em;
-    box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
-    -webkit-box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
+    padding: 0 0 0 0;
 }
 
 .tagbox span {
     background-color: #97979781;
     padding: 0.3em 0.6em 0.3em 0.6em;
     border-radius: 1em;
-    font-size: 0.9em;
+    font-size: 0.7em;
+    font-weight: 800;
     margin-right: .5em;
 }
 
@@ -387,6 +380,13 @@ p{
     margin-right: -20px;
   }
 }
+
+.article{
+    margin-top: 2.5em !important;
+    font-size:1.05em;
+    
+}
+
 
 .blog {
   display: grid;

@@ -56,8 +56,7 @@
 }
 
 .toc2 {
-    font-size: $small-fs;
-    
+    font-size: 1em !important;
     padding-bottom: 1em;
     padding-right: 1em;
     background-color: white;
@@ -68,7 +67,7 @@
         font-size: $small-fs * 0.9;
     }
     &:before {
-        content: "Contents";
+        content: "On this page";
         font-weight: bold;
         line-height: 1.8;
         font-size: 1.2rem;
@@ -77,22 +76,19 @@
     li {
         list-style: decimal;
         margin: 0;
-
     }
-
 }
 
-.toc2 li:active{
-    color:black !important;
+.toc2 li a:hover{
+    text-decoration: underline !important;
 }
 
-.toc2 li:target{
-    color:black !important;
-}
-.toc2 li:focus{
-    color:black !important;
+
+.toc_active{
+    color: #052c81 !important;
+    background-color: rgba(206, 206, 202, 0);
+    font-weight: 600;
 }
 
-.toc2 li:hover{
-    color:black !important;
-}
+
+

@@ -42,3 +42,67 @@
 //     else
 //       document.body.classList.remove('dark');
 // })
+
+
+
+// TOC set active class
+
+window.addEventListener('DOMContentLoaded', () => {
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const id = entry.target.getAttribute('id');
+      if (entry.intersectionRatio > 0) {
+        document.querySelector(`.toc2 li a[href="#${id}"]`).classList.add('toc_active');
+      } else {
+        document.querySelector(`.toc2 li a[href="#${id}"]`).classList.remove('toc_active');
+      }
+    });
+  });
+
+  // Track all sections that have an `id` applied
+
+  document.querySelectorAll('h1[id]').forEach((h1) => {
+    observer.observe(h1);
+  });
+
+  document.querySelectorAll('h2[id]').forEach((h2) => {
+    observer.observe(h2);
+  });
+
+  document.querySelectorAll('h3[id]').forEach((h3) => {
+    observer.observe(h3);
+  });
+
+  document.querySelectorAll('h4[id]').forEach((h4) => {
+    observer.observe(h4);
+  });
+
+  document.querySelectorAll('h5[id]').forEach((h5) => {
+    observer.observe(h5);
+  });
+
+  document.querySelectorAll('h6[id]').forEach((h6) => {
+    observer.observe(h6);
+  });
+  
+});
+
+
+// bottom to top button
+
+$(document).ready(function () {
+    'use strict';
+    $('area').on('click', function () {
+       $('html').animate({
+           scrollTop: 0
+       }, 800);
+    });
+    $(window).on('scroll', function () {
+       if ($(window).scrollTop() > 600) {
+           $('area').fadeIn();
+       } else {
+           $('area').fadeOut();
+       }
+    });
+});

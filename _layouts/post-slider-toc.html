@@ -27,11 +27,11 @@ This layout is used for posts. Changing anything here will affect all posts(not 
   </p>
 </div>
 
-<div
+<!-- <div
   class="featured-image rounded shadow"
   style="background-image: url({{page.image | relative_url }})"
   data-aos="zoom-in"
-></div>
+></div> -->
 
 <div class="container">
 
@@ -48,13 +48,15 @@ This layout is used for posts. Changing anything here will affect all posts(not 
 <hr class="dashed" />
 <div class="container">
 
+    <div class="tagbox">
+        {% if page.categories %} {% include categories-post.html %} {% endif %}
+    </div>
+
     <div class="sharebox">
         {% if site.share %} {% include share-buttons.html %} {% endif %}
     </div>
 
-    <div class="tagbox">
-        {% if page.categories %} {% include categories-post.html %} {% endif %}
-    </div>
+    
 
    <div class="commentbox">
         {% if site.disqus %} {% include disqus.html %} {% endif %}

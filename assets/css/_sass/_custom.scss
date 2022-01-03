@@ -22,3 +22,53 @@
 .recommendations-layout {
     display: none !important;
 }
+
+
+#fas {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    cursor: pointer;
+    color: #062872;
+    
+}
+
+#fas:hover {
+    animation: icon 1s ease-in-out
+}
+
+@-webkit-keyframes icon {
+    0%{
+        bottom: 8px
+    }
+    25%{
+        bottom: 15px   
+    }
+    50% {
+        bottom: 8px
+    }
+    75%{
+        bottom: 15px   
+    }
+    100% {
+        bottom: 8px
+    }
+}
+@keyframes icon {
+    0%{
+        bottom: 8px
+    }
+    25%{
+        bottom: 15px   
+    }
+    50% {
+        bottom: 8px
+    }
+    75%{
+        bottom: 15px   
+    }
+    100% {
+        bottom: 8px
+    }
+}
+    

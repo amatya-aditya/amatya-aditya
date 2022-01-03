@@ -18,5 +18,5 @@ Munal M-72 is a fixed-wing RC plane developed as the final year project to meet 
 
 The pilot test of the drone was performed in June 2018.
 
+<div class="slideshow shadow"> {% include slider.html selector="munal" %} </div>
 
-{% include slider.html selector="munal" %}
