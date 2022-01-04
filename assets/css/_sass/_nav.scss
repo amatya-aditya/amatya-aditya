@@ -25,13 +25,9 @@ $link-hover-color: #5252529d;
 }
 
 .navactive {
-    background-color: $link-hover-color !important;
     border-radius: 0.3em;
 }
 
-.navactive background-color{
-    max-height:2.5em !important;
-}
 
 // Logo and branding
 .brand {
@@ -111,13 +107,13 @@ nav {
   height: $nav-height;
   width: $nav-height;
 }
-@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 712px) {
   // Hamburger nav visible on mobile only
   .nav-mobile {
     display: block;
   }
   nav {
-   width: 100%;
+   width: 50vw;
     padding: $nav-height 0 15px;
     ul {
       display: none;
@@ -138,11 +134,14 @@ nav {
     position: static;
   }
 }
-@media screen and (min-width: $breakpoint) {
-  .nav-list {
-    display: block !important;
-  }
-}
+
+// @media screen and (min-width: $breakpoint) {
+//   .nav-list {
+//     display: block !important;
+//   }
+// }
+
+
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -169,7 +168,7 @@ nav {
     bottom: -10px;
   }
   &.active span {
-    background-color: $brand-color;
+    
     &:before,
     &:after {
       top: 0;

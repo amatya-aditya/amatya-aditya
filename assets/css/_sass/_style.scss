@@ -8,9 +8,7 @@
  *                                                                     `---'
  */
 
-* {
-  /*  border: 1px dashed #eee; */
-}
+
 
 body{
 
@@ -68,7 +66,7 @@ a.nostyle {
 }
 
 .container-grid {
-  background: #fff;
+  background: #ededed;
   display: grid;
   grid-template-columns: repeat(13, 0.7fr);
   grid-template-rows: repeat(auto, 100px);
@@ -81,8 +79,9 @@ a.nostyle {
     grid-template-columns: repeat(13, 0.5fr);
     
   }
-  padding-right:1.1em;
-  padding-left:1.1em;
+//   padding-right:1.1em;
+  padding-left:.8em;
+    
 }
 
 .sidebar {
@@ -97,6 +96,8 @@ a.nostyle {
   @include media-query($on-palm) {
     margin-bottom: 0;
   }
+  box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
+    -webkit-box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
 }
 
 @media only screen and (max-width: 600px){
@@ -114,6 +115,7 @@ a.nostyle {
 
 .main-post {
   grid-column: 2 / 10;
+  background-color: #fff;
 //   border-top: 10px solid $brand-color;
   @include media-query($on-laptop) {
     grid-column: 1 / 11;
@@ -125,17 +127,21 @@ a.nostyle {
     padding-left:1em;
 }
 .outline{
-grid-column: 10 / 14;
-position: sticky;
-top: 0;
-margin-left: 3.5em;
-margin-top:2em;
-height: 100vh;
-overflow-y: auto;
-padding-top:em;
-@include media-query($on-laptop) {
-    grid-column: 11 / 14;
-  }
+    background-color: #fff;
+    grid-column: 10 / 14;
+    position: sticky;
+    top: 2em;
+    height: 100vh;
+    overflow-y: auto;
+    padding-top:2em;
+    padding-left: 1em;
+    margin: 0 2em 0 1em;
+    @include media-query($on-laptop) {
+        grid-column: 10 / 14;
+    }
+
+
+
 }
 
 
@@ -176,11 +182,11 @@ padding-top:em;
   }
 }
 
-.cards:hover{
-    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
-    transform: translateY(-5px);
-  }
+// .cards:hover{
+//     -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+//     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+//     transform: translateY(-5px);
+//   }
 
 
 .hide {
@@ -242,7 +248,7 @@ padding-top:em;
     }
     box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
     -webkit-box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
-    padding:2em;
+    padding:1.5em;
 }
 
 .commentbox{
@@ -358,6 +364,10 @@ p{
 .nav-pills .show>.nav-link {
     color: #fff;
     background-color: $brand-color;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #061c8191;
 }
 
   ul.sm {
@@ -531,3 +541,4 @@ p{
 .copy {
   color: $grey-color;
 }
+

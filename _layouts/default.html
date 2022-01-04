@@ -7,10 +7,17 @@ This layout is used in all pages. Making changes here will efect all pages. We r
  -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light">
   {% include head.html %}
 
-  <body>
+  
+
+  <body class="light">
+
+    <script>
+        const theme = localStorage.getItem('theme') || 'light';
+        document.body.className = theme;
+    </script>
 
      <!-- Nav -->
 
@@ -28,28 +35,29 @@ This layout is used in all pages. Making changes here will efect all pages. We r
                             href="{{item.link | relative_url}}">{{item.title}}</a></li>
                     {% endfor %}
 
+                    
+
                     <!-- <li style="padding-top: 0.75em;">
-                        <input type="checkbox" class="checkbox" id="chk" />
-                        <label class="label tab-btns" for="chk">
+                        <input type="checkbox" class="checkbox" id="theme-toggle">
+                        <label class="label tab-btns" for="theme-toggle">
                             <i class="fa fa-moon-o"></i>
                             <i class="fa fa-sun-o"></i>
                             <div class="ball"></div>
+                            <span id="theme"></span>
                         </label>
                     </li> -->
 
-                    <!-- <div class="px-2 js-darkmode-btn" title="Toggle dark mode">
-                        <label for="something" class="tab-btn tab-btns">
-                            <ion-icon class="light-mode" name="contrast"></ion-icon>
-                        </label>
-                        <input type="checkbox" name="something" id="something" class="dark_mode_switcher">
-                        <label for="something" class="tab-btn">
-                            <ion-icon class="dark-mode" name="contrast-outline"></ion-icon>
-                        </label>
-                    </div> -->
+                    <li class="searched" style="padding-top: 0.65em;">
+                        <div class="searchedBox">
+                            <input id="search-input" class="searchedInput" type="text" name="" placeholder="Search" />
+                            <button class="searchedButton" href="#">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
 
-                     
-                     
                  </ul>
+                 
 
                  
                  
@@ -82,7 +90,7 @@ This layout is used in all pages. Making changes here will efect all pages. We r
             {% include footer.html %}
           </div>
         </div>
-        <div id="fas" class="shadow">
+        <div id="fas">
             <area class="fa fa-arrow-circle-o-up fa-3x"></area>
         </div>
       </div>

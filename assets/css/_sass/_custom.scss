@@ -29,7 +29,7 @@
     bottom: 8px;
     right: 8px;
     cursor: pointer;
-    color: #062872;
+    color: #606060;
     
 }
 
@@ -71,4 +71,82 @@
         bottom: 8px
     }
 }
+    // Search
+
+
+.searched {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchedBox {
+  animation: searchedBox-reveal 1s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 8px;
+  padding: 8px;
+//   box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.24), 0 1.5px 3px rgba(0, 0, 0, 0.32);
+  transition: all 0.8s;
+  &:hover {
+    //box-shadow: 0 3px 4.5px rgba(0, 0, 0, 0.32), 0 3px 4.5px rgba(0, 0, 0, 0.4);
+  }
+  &:hover > .searchedInput {
+    transition: all 0.8s cubic-bezier(0.16, 0.2, 0.32, 1.4);
+    width: 120px;
+    padding: 2px 2px;
     
+  }
+  @media only screen and (max-width: 885px) {
+      &:hover > .searchedInput {
+            width: 50px;
+      }
+  
+  }
+}
+
+.searchedInput {
+  background: none;
+  border: none;
+  outline: none;
+  float: left;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  width: 0px;
+  font-family: "Lexend Deca";
+  padding: 8px 0px;
+  
+  &:valid > .searchedBox {
+    box-shadow: 0 3px 4.5px rgba(0, 0, 0, 0.32), 0 3px 4.5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.searchedButton {
+  color: white;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  //margin-left: 0.5px;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: white;
+  font-family: "Lexend Deca";
+  opacity: 0.5;
+}

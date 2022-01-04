@@ -29,13 +29,26 @@ This layout is used in all post with table of conetent. Making changes here will
                     {% endfor %}
 
                     <!-- <li style="padding-top: 0.75em;">
-                        <input type="checkbox" class="checkbox" id="chk" />
-                        <label class="label" for="chk">
+                        <input type="checkbox" class="checkbox" id="theme-toggle">
+                        <label class="label tab-btns" for="theme-toggle">
                             <i class="fa fa-moon-o"></i>
                             <i class="fa fa-sun-o"></i>
                             <div class="ball"></div>
+                            <span id="theme"></span>
                         </label>
                     </li> -->
+
+                    <li class="searched" style="padding-top: 0.65em;">
+                        <div class="searchedBox">
+                            <input id="search-input" class="searchedInput" type="text" name="" placeholder="Search" />
+                            <button class="searchedButton" href="#">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                    
 
                      
                      
@@ -63,21 +76,36 @@ This layout is used in all post with table of conetent. Making changes here will
 
     <div class="wrapper" >
       <div class="container-grid">
+          
         <div class="main-post">
 
           <div class="main-container shadow">
             <main>{{content}}</main>
 
             <div id="search-container"></div>
-            <hr class="dashed" />
 
-
-            {% include footer.html %}
+            <div class="tagbox">
+                {% if page.categories %} {% include categories-post.html %} {% endif %}
             </div>
+            <span>
+                <i> {% if site.share %} {% include share-buttons.html %} {% endif %}</i>
+            </span>
+
+            
             
             </div>
             
-            <div class="outline"> 
+            <div class="commentbox">
+                {% if site.disqus %} {% include disqus.html %} {% endif %}
+
+                <hr class="dashed" />
+                {% include footer.html %}
+            </div>
+            
+            
+            </div>
+            
+            <div class="outline shadow"> 
             <div class="outlinescroller">
             <div class="searchbar">
                 <div class="input-group mb-3" data-aos="zoom-in">
@@ -91,14 +119,18 @@ This layout is used in all post with table of conetent. Making changes here will
             {% if site.toc %} {% include toc.html html=content class="toc2 rev clearfix"%}
             {% endif %}
             </div>
+            
             </div>
 
 
-            <div id="fas" class="shadow">
+            <div id="fas">
                 <area class="fa fa-arrow-circle-o-up fa-3x"></area>
             </div>
 
+            
+
       </div>
+      
     </div>
 
 

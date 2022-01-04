@@ -1,4 +1,4 @@
-I"5C<p><small>Image Credits:<a href="https://www.fruitlayer.com"> Fruit Layer</a></small></p>
+I",C<p><small>Image Credits:<a href="https://www.fruitlayer.com"> Fruit Layer</a></small></p>
 
 <h2 id="features">Features</h2>
 
@@ -360,7 +360,7 @@ var myChart = new Chart(ctx, {
 | └── post.html
 |
 ├── \_posts
-| ├── articles/2018-11-22-blackcurrant.md
+| ├── 2018-11-22-blackcurrant.md
 | └── 2009-04-26-title-of-post.md
 |
 ├── \_pages

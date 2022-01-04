@@ -23,6 +23,7 @@ This layout is used for posts. Changing anything here will affect all posts(not 
         <i class="fa fa-clock-o" aria-hidden="true"></i> {% include
         reading-time.html %}
       </span>
+      
     </small>
   </p>
 </div>
@@ -46,25 +47,15 @@ This layout is used for posts. Changing anything here will affect all posts(not 
 
 
 <hr class="dashed" />
-<div class="container">
-
-    <div class="tagbox">
-        {% if page.categories %} {% include categories-post.html %} {% endif %}
-    </div>
-
-    <div class="sharebox">
-        {% if site.share %} {% include share-buttons.html %} {% endif %}
-    </div>
+<div>
 
     
 
-   <div class="commentbox">
-        {% if site.disqus %} {% include disqus.html %} {% endif %}
-   </div>
+   
     
-    <div class="recentbox">
+    <!-- <div class="recentbox">
         {% if site.recent-posts %} {% include recent.html %} {% endif %}
-    </div>
+    </div> -->
     
 </div>
 
