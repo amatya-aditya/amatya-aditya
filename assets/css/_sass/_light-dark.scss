@@ -1,0 +1,177 @@
+///////////////////////////////theme-toggler///////////////////////////
+
+// body.light {
+
+    body{
+
+  background-color: #cac6c6c2;
+  color: #0c0c0c;
+
+.navigation {
+    background: #434a4e;
+}
+
+nav ul li a, nav ul li a:visited {
+    color: #fdfcfc;
+}
+
+.highlight {
+    background: #ded;
+}
+
+table tr td {
+    border: 1px solid #9b9b9b;
+    background-color: #dedede;
+}
+
+table tr th {
+    border: 1px solid #9b9b9b;
+    background-color: #dedede;
+}
+
+.container-grid {
+    background: #dedede;
+}
+
+.main-container {
+    background-color: #ededed;
+}
+
+.sidebar {
+    background-color: #ededed;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem #00000026 !important;
+}
+
+.outline {
+    background-color: #ededed;
+}
+
+.toc2 {
+    background-color: #ededed;
+}
+
+.commentbox {
+    background-color: #fff;
+}
+
+.label .ball {
+    background-color: #ededed;
+}
+
+.border {
+    border: 1px solid #dee2e6 !important;
+    background-color: #ebebeb;
+}
+
+.active {
+    background: #bfbfbf9e;
+}
+
+.rounded a {
+    color: #3f75cf;
+
+}
+
+.portfolioFilter li a {
+    background-color: #b8b8b860;
+}
+
+.portfolioFilter li a:hover, .portfolioFilter li a.active {
+    color: #ffffff !important;
+    background-color: #202325;
+}
+
+#fas {
+    color: #606060;
+}
+
+.tag-teal {
+    background-color: #8e979d;
+}
+
+.tag {
+    background: #cccccc;
+    color: #080808;
+}
+#thread__container{
+        background-color: #dadada;
+}
+}
+
+
+
+/// Body Dark
+
+// body.dark {
+ 
+  
+// }
+
+
+
+//// create variables //
+
+// body {
+  
+//     background-color: var(--body-background-color);
+
+//     color: var(--body-color);
+
+// .navigation {
+//     background: var(--navigation-background);
+// }
+
+// nav ul li a, nav ul li a:visited {
+//     color: var(--nav-a-color);
+// }
+
+// .highlight {
+//     background: var(--highlight-background);
+// }
+
+// table tr td {
+//     border: 1px solid var(--table-border-tr-td-color);
+//     background-color: var(--table-tr-td-background-color);
+// }
+
+// table tr th {
+//     border: 1px solid var(--table-border-tr-th-color);
+//     background-color: var(--table-tr-th-background-color);
+// }
+
+// .container-grid {
+//     background: var(--container-grid-background-color)
+// }
+
+// .main-container {
+//     background-color: var(--main-container-background-color)
+// }
+
+// .sidebar {
+//     background-color: var(--sidebar-background-color)
+// }
+
+// .shadow {
+//     box-shadow: 0 0.5rem 1rem var(--shadow-box-shadow-color) !important;
+// }
+
+// .outline {
+//     background-color: var(--outline-background-color)
+// }
+
+// .toc2 {
+//     background-color: var(--toc2-background-color)
+// }
+
+// .commentbox {
+//     background-color: var(--commentbox-background-color)
+// }
+
+// .label .ball {
+//     background-color: var(--label-ball-background-color)
+// }
+  
+// }
