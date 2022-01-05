@@ -5,7 +5,7 @@ image: /images/ansys-simulation/cyclone separator/model.jpg
 description: The flow of fluid was observed during the CFD simulation of the cyclone separator.
 date:  2020-04-12
 image_sliders:
-  - cyclone-separator
+  - cycloneseparator
 categories:
   - simulation 
 tags:
@@ -14,4 +14,4 @@ tags:
 
 ## Design and CFD Analysis of Cyclone Separator
 
-{% include slider.html selector="cyclone-separator" %}
+{% include slider.html selector="cycloneseparator" %}

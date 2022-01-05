@@ -1,0 +1,15 @@
+I"$<h2 id="design-and-analysis-of-engine-blockh2-div">Design and Analysis of Engine Block&lt;/h2&gt; &lt;/div&gt;</h2>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div id="engineblock">
+  <img data-src="" data-src-2x="" src="/images/ansys-simulation/engine-block/model.png" title="" alt="" />
+  <img data-src="" data-src-2x="" src="/images/ansys-simulation/engine-block/meshing.jpg" title="" alt="" />
+  <img data-src="" data-src-2x="" src="/images/ansys-simulation/engine-block/structural-1.jpg" title="" alt="" />
+  <img data-src="" data-src-2x="" src="/images/ansys-simulation/engine-block/structural-2.jpg" title="" alt="" />
+  <img data-src="" data-src-2x="" src="/images/ansys-simulation/engine-block/structural-3.jpg" title="" alt="" />
+  <img data-src="" data-src-2x="" src="/images/ansys-simulation/engine-block/thermal-1.jpg" title="" alt="" />
+  <img data-src="" data-src-2x="" src="/images/ansys-simulation/engine-block/thermal-2.jpg" title="" alt="" />
+  </div>
+:ET

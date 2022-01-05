@@ -37,7 +37,7 @@
 {
 "category": "simulation",
 "title": "Carburetor",
-"description": "Design and Flow analysis through Perforated tube in Carburetor  ",
+"description": "Design and Flow analysis through Perforated tube in Carburetor               ...",
 "url": "/learnings/carburetor/",
 "image": "/images/ansys-simulation/carburetor/model2.jpg",
 "author": ""
@@ -47,7 +47,7 @@
 {
 "category": "simulation",
 "title": "Crankshaft",
-"description": "Design and Structural Analysis of Crankshaft  ",
+"description": "Design and Structural Analysis of Crankshaft                ",
 "url": "/learnings/crankshaft/",
 "image": "/images/ansys-simulation/crankshaft/model.jpg",
 "author": ""
@@ -57,7 +57,7 @@
 {
 "category": "simulation",
 "title": "Cyclone Separator",
-"description": "Design and CFD Analysis of Cyclone Separator  ",
+"description": "Design and CFD Analysis of Cyclone Separator            ",
 "url": "/learnings/cycloneseparator/",
 "image": "/images/ansys-simulation/cyclone separator/model.jpg",
 "author": ""
@@ -67,7 +67,7 @@
 {
 "category": "simulation",
 "title": "Engine Block",
-"description": " Design and Analysis of Engine Block   ",
+"description": "Design and Analysis of Engine Block                ",
 "url": "/learnings/engineblock/",
 "image": "/images/ansys-simulation/engine-block/model.png",
 "author": ""
@@ -77,7 +77,7 @@
 {
 "category": "simulation",
 "title": "Heat Exchanger",
-"description": "Design and CFD Analysis of Heat Exchanger  ",
+"description": "Design and CFD Analysis of Heat Exchanger                          ",
 "url": "/learnings/heat-exchanger/",
 "image": "/images/ansys-simulation/heat-exchanger/modelwithbaffle.jpg",
 "author": ""
@@ -87,7 +87,7 @@
 {
 "category": "simulation",
 "title": "Spindle",
-"description": "Design and Structural Analysis of Spindle  ",
+"description": "Design and Structural Analysis of Spindle                      ",
 "url": "/learnings/spindle/",
 "image": "/images/ansys-simulation/Spindle/model.jpg",
 "author": ""
@@ -97,9 +97,9 @@
 {
 "category": "simulation",
 "title": "Wheel Rim",
-"description": "Design and Structural Analysis of Wheel Rim  ",
+"description": "Design and Structural Analysis of Wheel Rim                    ",
 "url": "/learnings/wheelrim/",
-"image": "/images/ansys-simulation/wheel rim/model.jpg",
+"image": "/images/ansys-simulation/wheel-rim/Model.png",
 "author": ""
 }
 

@@ -99,15 +99,111 @@
 - selector: firefighter
 
 - selector: carburetor
+  bullets: true
+  captions: true
+  images:
+    - src: /images/ansys-simulation/carburetor/model2.jpg
+    - src: /images/ansys-simulation/carburetor/section-view-model3.jpg
+    - src: /images/ansys-simulation/carburetor/section-view-model4.jpg
+    - src: /images/ansys-simulation/carburetor/streamline.jpg
+    - src: /images/ansys-simulation/carburetor/velocity.jpg
+    - src: /images/ansys-simulation/carburetor/velocity2.jpg
+    - src: /images/ansys-simulation/carburetor/volume-streamline.jpg
+    - src: /images/ansys-simulation/carburetor/volume-streamline2.jpg
+    - src: /images/ansys-simulation/carburetor/vortex.jpg
+  settings:
+    height: 400
+    
 
 - selector: engineblock
+  bullets: true
+  captions: true
+  images:
+    - src: /images/ansys-simulation/engine-block/model.png
+    - src: /images/ansys-simulation/engine-block/meshing.jpg
+    - src: /images/ansys-simulation/engine-block/structural-1.jpg
+    - src: /images/ansys-simulation/engine-block/structural-2.jpg
+    - src: /images/ansys-simulation/engine-block/structural-3.jpg
+    - src: /images/ansys-simulation/engine-block/thermal-1.jpg
+    - src: /images/ansys-simulation/engine-block/thermal-2.jpg
+  settings:
+    height: 400
+   
 
 - selector: crankshaft
+  bullets: true
+  captions: true
+  images:
+    - src: /images/ansys-simulation/crankshaft/model.jpg
+    - src: /images/ansys-simulation/crankshaft/meshing.jpg
+    - src: /images/ansys-simulation/crankshaft/forged-steel-1.jpg
+    - src: /images/ansys-simulation/crankshaft/forged-steel-2.jpg
+    - src: /images/ansys-simulation/crankshaft/forged-steel-3.jpg
+    - src: /images/ansys-simulation/crankshaft/forged-steel-4.jpg
+    - src: /images/ansys-simulation/crankshaft/forged-steel-5.jpg
+  settings:
+    height: 382
 
 - selector: wheelrim
+  bullets: true
+  captions: true
+  images:
+    - src: /images/ansys-simulation/wheel-rim/model.jpg
+    - src: /images/ansys-simulation/wheel-rim/Model.png
+    - src: /images/ansys-simulation/wheel-rim/mesh.png
+    - src: /images/ansys-simulation/wheel-rim/1 a.png
+    - src: /images/ansys-simulation/wheel-rim/1 b.png
+    - src: /images/ansys-simulation/wheel-rim/1 c.png
+    - src: /images/ansys-simulation/wheel-rim/1 d.png
+    - src: /images/ansys-simulation/wheel-rim/1 e.png
+    - src: /images/ansys-simulation/wheel-rim/1 f.png
+  settings:
+    height: 382
 
-- selector: cyclone-separator
+- selector: cycloneseparator
+  bullets: true
+  captions: true
+  images:
+    - src: /images/ansys-simulation/cyclone separator/model.jpg
+    - src: /images/ansys-simulation/cyclone separator/meshing.jpg
+    - src: /images/ansys-simulation/cyclone separator/renderedmodel.jpg
+    - src: /images/ansys-simulation/cyclone separator/pressure.jpg
+    - src: /images/ansys-simulation/cyclone separator/velocity.jpg
+  settings:
+    height: 382
 
 - selector: spindle
+  bullets: true
+  captions: true
+  images:
+    - src: /images/ansys-simulation/Spindle/model.jpg
+    - src: /images/ansys-simulation/Spindle/spindle model.jpg
+    - src: /images/ansys-simulation/Spindle/spindle-model-2.jpg
+    - src: /images/ansys-simulation/Spindle/structural-1.jpg
+    - src: /images/ansys-simulation/Spindle/structural-2.jpg
+    - src: /images/ansys-simulation/Spindle/structural-3.jpg
+    - src: /images/ansys-simulation/Spindle/structural-4.jpg
+    - src: /images/ansys-simulation/Spindle/structural-5.jpg
+    - src: /images/ansys-simulation/Spindle/structural-6.jpg
+    - src: /images/ansys-simulation/Spindle/structural-7.jpg
+  settings:
+    height: 382
 
-- selector: heat-exchanger
+- selector: heatexchanger
+  bullets: true
+  captions: true
+  images:
+    - src: /images/ansys-simulation/heat-exchanger/heat-exchanger-with-baffle.jpg
+    - src: /images/ansys-simulation/heat-exchanger/heat-exchanger-without-baffle.jpg
+    - src: /images/ansys-simulation/heat-exchanger/modelwithbaffle.jpg
+    - src: /images/ansys-simulation/heat-exchanger/modelwithoutbaffle.jpg
+    - src: /images/ansys-simulation/heat-exchanger/meshing1.jpg
+    - src: /images/ansys-simulation/heat-exchanger/meshing2.jpg
+    - src: /images/ansys-simulation/heat-exchanger/pressure1.jpg
+    - src: /images/ansys-simulation/heat-exchanger/pressure2.jpg
+    - src: /images/ansys-simulation/heat-exchanger/temperature1.jpg
+    - src: /images/ansys-simulation/heat-exchanger/temperature2.jpg
+    - src: /images/ansys-simulation/heat-exchanger/velocity1.jpg
+    - src: /images/ansys-simulation/heat-exchanger/velocity2.jpg
+  settings:
+    height: 382
