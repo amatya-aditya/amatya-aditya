@@ -62,6 +62,7 @@ This layout is used in all post with table of conetent. Making changes here will
 
     {% if site.data.main.color-scheme-changer-widget %} {% include
     demo-color-scheme-selector.html %} {% endif %}
+    
     <!-- <div class="loader">
       <div class="lds-ring">
         <div></div>
@@ -78,21 +79,27 @@ This layout is used in all post with table of conetent. Making changes here will
       <div class="container-grid">
           
         <div class="main-post">
-
+            
           <div class="main-container shadow">
+              
             <main>{{content}}</main>
 
             <div id="search-container"></div>
 
-            <div class="tagbox">
-                {% if page.categories %} {% include categories-post.html %} {% endif %}
+            
+
+            
+
+            <div>
+                {% include collections-next-prev.html %}
             </div>
+
             <span>
                 <i> {% if site.share %} {% include share-buttons.html %} {% endif %}</i>
             </span>
 
             
-            
+                        
             </div>
             
             <div class="commentbox">
@@ -107,14 +114,14 @@ This layout is used in all post with table of conetent. Making changes here will
             
             <div class="outline shadow"> 
             <div class="outlinescroller">
-            <div class="searchbar">
+            <!-- <div class="searchbar">
                 <div class="input-group mb-3" data-aos="zoom-in">
                     <input type="text" placeholder="Search.." class="form-control border-right-0" id="search-input" />
                     <div class="input-group-append">
                         <span class="input-group-text"><i class="fa fa-search"></i></span>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             {% if site.toc %} {% include toc.html html=content class="toc2 rev clearfix"%}
             {% endif %}

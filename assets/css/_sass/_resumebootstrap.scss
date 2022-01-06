@@ -7402,7 +7402,12 @@ fieldset:disabled .btn {
 .border {
     border: 1px solid #dee2e6 !important;
     background-color: #f4f4f5f5;
+      transition: all 0.25s ease-in;
 
+}
+
+.border:hover{
+    transform: translateY(-3px);
 }
 
 .border-0 {

@@ -71,7 +71,9 @@
         bottom: 8px
     }
 }
-    // Search
+    
+
+// Search
 
 
 .searched {
@@ -149,4 +151,43 @@ input::placeholder {
   color: white;
   font-family: "Lexend Deca";
   opacity: 0.5;
+}
+
+
+//// next-prev
+
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.post-nav p {
+    flex: 1 1 0;
+    width: 45%;
+}
+
+.post-nav p:first-child {
+    padding-right: 0.5em;
+}
+
+.post-nav p:last-child {
+    padding-left: 0.5em;
+    text-align: right;
+}
+
+
+.post-nav p a {
+    color: #d7dcdf;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #434a4e;
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+
+.post-nav p a:hover {
+
+    background-color: #084b75;
+    
 }
