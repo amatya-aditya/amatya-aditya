@@ -183,11 +183,12 @@ input::placeholder {
     text-decoration: none;
     background-color: #434a4e;
     padding: 0.3em;
-    border-radius: 0.4em;
+    border-radius: 0.1em;
 }
 
 .post-nav p a:hover {
 
-    background-color: #084b75;
+    background: #344154;
+    box-shadow: 0 0 9px 0px #02046845;
     
 }

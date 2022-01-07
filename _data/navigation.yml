@@ -9,6 +9,13 @@
 
 - title: Projects
   url: /projects/
+  # sublinks:
+    
+  #   - title: Fluid Mechanics
+  #     url: /fluid-mechanics/
+
+  #   - title: Numerical Methods
+  #     url: /numerical-methods/
 
 - title: Learnings
   url: /learnings/

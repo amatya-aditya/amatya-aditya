@@ -19,15 +19,13 @@ $link-hover-color: #6e6a6a80;
   margin: 0 auto;
 
 }
-    
 
-
-.navactive {
-    background: $link-hover-color;
-color: $nav-font-color;
-    border-radius: 0.4em;
-    box-shadow: inset 0 0 20px 20px #434a4e, 0 0 9px 0px #91919145;
-}
+// .nav-active {
+//     background: $link-hover-color;
+//     color: $nav-font-color;
+//     border-radius: 0.4em;
+//     box-shadow: inset 0 0 20px 20px #434a4e, 0 0 9px 0px #91919145;
+// }
 
 
 // Container with no padding for navbar
@@ -55,15 +53,18 @@ nav {
         line-height: $nav-height;
         color: $nav-font-color;
         text-decoration: none;
+        z-index: 0;
 
         &::before{
 
         transition: transform 0.5s ease-in-out;
         transform: scale(0);
+        z-index:-1;
 
         }
         
-        &:hover {
+        &:hover :before
+         {
           transform: scale(1);
           background: $link-hover-color;
           color: $nav-font-color;
