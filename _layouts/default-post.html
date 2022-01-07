@@ -14,51 +14,57 @@ This layout is used in all post with table of conetent. Making changes here will
 
      <!-- Nav -->
 
-     <section class="navigation">
-         <div class="nav-container">
-             <!-- <div class="brand">
-                 <a href="#!">Logo</a>
-             </div> -->
-             <nav>
-                 <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                 <ul class="nav-list">
+        <section class="navigation">
+            <div class="nav-container">
+                <nav>
+                    <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                    <ul class="nav-list navbar-collapse">
 
-                    {% for item in site.data.main.menu %}
-                    <li><a class="{% if page.url == item.link %}navactive{% endif %}"
-                            href="{{item.link | relative_url}}">{{item.title}}</a></li>
-                    {% endfor %}
+                        {% assign links = site.data.navigation %}
+                        {% for link in links %}
+                        {% assign class = nil %}
+                        {% if page.url contains link.url %}
+                        {% assign class = 'nav-active' %}
+                        {% endif %}
+                        {% if link.sublinks %}
 
-                    <!-- <li style="padding-top: 0.75em;">
-                        <input type="checkbox" class="checkbox" id="theme-toggle">
-                        <label class="label tab-btns" for="theme-toggle">
-                            <i class="fa fa-moon-o"></i>
-                            <i class="fa fa-sun-o"></i>
-                            <div class="ball"></div>
-                            <span id="theme"></span>
-                        </label>
-                    </li> -->
+                        <li class="{{ class }} dropdown-main">
 
-                    <li class="searched" style="padding-top: 0.65em;">
-                        <div class="searchedBox">
-                            <input id="search-input" class="searchedInput" type="text" name="" placeholder="Search" />
-                            <button class="searchedButton" href="#">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </div>
-                    </li>
-                    
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }} </a>
 
-                    
+                            <ul class="dropdown-content">
+                                {% for sublink in link.sublinks %}
+                                <li>
+                                    <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
 
-                     
-                     
-                 </ul>
 
-                 
-                 
-             </nav>
-         </div>
-     </section>
+                        {% else %}
+
+                        <li class="{{ class }}">
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                        </li>
+
+                        {% endif %}
+                        {% endfor %}
+
+                        <li class="searched" style="padding-top: 0.65em;">
+                            <div class="searchedBox">
+                                <input id="search-input" class="searchedInput" type="text" name=""
+                                    placeholder="Search" />
+                                <button class="searchedButton" href="#">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+        </section>
+
+     
 
     {% if site.data.main.color-scheme-changer-widget %} {% include
     demo-color-scheme-selector.html %} {% endif %}

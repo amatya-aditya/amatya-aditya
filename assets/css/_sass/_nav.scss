@@ -4,7 +4,7 @@ $breakpoint: 799px;
 $nav-height: 50px;
 $nav-background: $navbar;
 $nav-font-color: #fdfcfc;
-$link-hover-color: #5252529d;
+$link-hover-color: #6e6a6a80;
 
 // Outer navigation wrapper
 .navigation {
@@ -20,35 +20,23 @@ $link-hover-color: #5252529d;
 
 }
     
-.active{
-    background: $link-hover-color;
-}
+
 
 .navactive {
-    border-radius: 0.3em;
+    background: $link-hover-color;
+color: $nav-font-color;
+    border-radius: 0.4em;
+    box-shadow: inset 0 0 20px 20px #434a4e, 0 0 9px 0px #91919145;
 }
 
-
-// Logo and branding
-.brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-  line-height: $nav-height;
-  text-transform: uppercase;
-  font-size: 1.4em;
-  a,
-  a:visited {
-    color: $nav-font-color;
-    text-decoration: none;
-  }
-}
 
 // Container with no padding for navbar
 .nav-container {
   max-width: $content-width;
   margin: 0 auto;
 }
+
+
 
 // Navigation 
 nav {
@@ -67,10 +55,22 @@ nav {
         line-height: $nav-height;
         color: $nav-font-color;
         text-decoration: none;
+
+        &::before{
+
+        transition: transform 0.5s ease-in-out;
+        transform: scale(0);
+
+        }
+        
         &:hover {
+          transform: scale(1);
           background: $link-hover-color;
           color: $nav-font-color;
+          border-radius: 0.4em;
+          box-shadow: inset 0 0 20px 20px #434a4e, 0 0 9px 0px #91919145;
         }
+
         &:not(:only-child):after {
           padding-left: 4px;
           content: ' ▾';
@@ -134,6 +134,35 @@ nav {
     position: static;
   }
 }
+
+.dropdown-main{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: $nav-background;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-height: 50px;
+}
+
+.dropdown-content a{
+  color: $nav-font-color;
+  display: block;
+}
+
+
+
+.dropdown-main:hover .dropdown-content{
+    display: block;
+}
+
+
+
+// .dropdown-content a:hover {background-color: rgb(187, 65, 65);}
+
 
 // @media screen and (min-width: $breakpoint) {
 //   .nav-list {

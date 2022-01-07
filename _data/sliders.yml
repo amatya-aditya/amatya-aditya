@@ -105,12 +105,12 @@
     - src: /images/ansys-simulation/carburetor/model2.jpg
     - src: /images/ansys-simulation/carburetor/section-view-model3.jpg
     - src: /images/ansys-simulation/carburetor/section-view-model4.jpg
-    - src: /images/ansys-simulation/carburetor/streamline.jpg
-    - src: /images/ansys-simulation/carburetor/velocity.jpg
+    - src: /images/ansys-simulation/carburetor/streamline1.jpg
+    - src: /images/ansys-simulation/carburetor/velocity1.jpg
     - src: /images/ansys-simulation/carburetor/velocity2.jpg
     - src: /images/ansys-simulation/carburetor/volume-streamline.jpg
     - src: /images/ansys-simulation/carburetor/volume-streamline2.jpg
-    - src: /images/ansys-simulation/carburetor/vortex.jpg
+    - src: /images/ansys-simulation/carburetor/vortex1.jpg
   settings:
     height: 400
     

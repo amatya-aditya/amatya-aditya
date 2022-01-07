@@ -1,0 +1,31 @@
+- title: Home
+  url: /
+
+- title: Resume
+  url: /resume/
+
+- title: Publications
+  url: /publications/
+
+- title: Projects
+  url: /projects/
+
+- title: Learnings
+  url: /learnings/
+  # sublinks:
+    
+  #   - title: Fluid Mechanics
+  #     url: /fluid-mechanics/
+
+  #   - title: Numerical Methods
+  #     url: /numerical-methods/
+
+
+- title: Blog
+  url: /blog/
+
+- title: Contact
+  url: /contact/
+
+
+  

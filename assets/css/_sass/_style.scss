@@ -73,6 +73,7 @@ a.nostyle {
   grid-gap: 10px;
   max-width: 1200px;
   margin: 0 auto;
+  
 //   min-height: 100vh;
   @include media-query($on-palm) {
     display: block;
@@ -96,8 +97,7 @@ a.nostyle {
   @include media-query($on-palm) {
     margin-bottom: 0;
   }
-  box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
-    -webkit-box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
+  
 }
 
 @media only screen and (max-width: 600px){

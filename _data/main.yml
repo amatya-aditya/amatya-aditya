@@ -24,37 +24,6 @@ color-scheme: default
 color-scheme-changer-widget: false
 
 
-
-
-# Menu items in the sidebar
-# Use a maximum of 3 items
-menu:
-
-  - title: Home
-    link: /
-
-  - title: Resume
-    link: /resume/
-
-  - title: Publications
-    link: /publications/
-
-  - title: Projects
-    link: /projects/
-
-  - title: Learnings
-    link: /learnings/
-
-  - title: Blog
-    link: /blog/
-
-  - title: Contact
-    link: /contact/
-
-  
-
-
-
 # Social icons in the sidebar
 # use font awesome icon code in the 'icon:' value
 social:
