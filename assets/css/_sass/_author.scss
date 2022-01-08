@@ -12,10 +12,9 @@
 .author-container {
     
     position: sticky;
-    top: 8em;
+    top: 10em;
     padding-bottom: 10px;
-    min-height:100vh;
-    
+    max-height:100vh;    
     .title {
         margin: 0.25em;
     }
@@ -32,7 +31,7 @@
         cursor: pointer;
         padding: 1em;
         border-radius: 50%;
-        width:50%;
+        width:60%;
         display:flex;
         margin: 0 auto;
     }

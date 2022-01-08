@@ -87,6 +87,7 @@ a.nostyle {
 
 .sidebar {
   grid-column: 1 / 4;
+  min-height: 100vh;
 //   background-color: $sidebar;
 //   border: 2px solid $navbar;
 //   margin-bottom: 10px;
@@ -396,6 +397,7 @@ p{
 
 .main-container {
   padding: 25px 30px;
+  
   hr {
     margin-left: -20px;
     margin-right: -20px;
