@@ -95,6 +95,13 @@
     effect: "'fade'"
 
 - selector: bat
+  bullets: true
+  images:
+    - src: /images/projects/bat/batlatest.jpg
+    - src: /images/projects/bat/bat2.jpg
+    - src: /images/projects/bat/bat3.jpg
+  settings:
+    height: 400
 
 - selector: firefighter
 
