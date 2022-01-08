@@ -192,3 +192,11 @@ input::placeholder {
     box-shadow: 0 0 9px 0px #02046845;
     
 }
+
+.embed-pdf{
+    position: relative;
+    display: block;
+    height: 600px;
+    padding: 1%;
+    overflow: hidden;
+}

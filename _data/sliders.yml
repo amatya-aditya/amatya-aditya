@@ -86,13 +86,36 @@
   images:
     - src: /images/projects/munal/fabricated-model.jpg
       title: Fabricated Model of the UAV
-    - src: /images/projects/munal/1.jpg
-      title: Coefficient of moment about neutral point
-    - data-src: /images/projects/munal/2.jpg
-    - src: /images/projects/munal/8.jpg
+    - src: /images/projects/munal/fuselage.png
+      title: Modelling of Fuselage
+    - src: /images/projects/munal/cl.png
+      title: Comparision of Coefficient of lift for different airfoils
+    - src: /images/projects/munal/cd.png
+      title: Comparision of Coefficient of drag for different airfoils
+    - src: /images/projects/munal/clcd.png
+      title: Ratio of Coefficient of lift to Coefficiet of drag for different airfoils
+    - src: /images/projects/munal/stallspeed.png
+      title: Stall velocity for different aspect ratio of wing
+    - src: /images/projects/munal/wingparameter.png
+      title: Design Parameter for wing
+    - src: /images/projects/munal/aoa.png
+      title: Variation of coefficient of lift with angle of attack
+    - src: /images/projects/munal/stallvelocity.png
+      title: Variation of velocity with angle of attack
+    - src: /images/projects/munal/horizontalstabilizer.png
+      title:  Modeling of the Horizontal stabilizer
+    - src: /images/projects/munal/actuator.png
+      title:  Modeling of the Actuator Mechanism
+    - src: /images/projects/munal/wing.png
+      title:  Modeling of the Actuator Mechanism
+    - src: /images/projects/munal/7.png
+      title: Pressure Contour for Wing Model
+    - src: /images/projects/munal/fuselage2.png
+      title: Fabrication of Fuselage
+    - src: /images/projects/munal/glidetest.png
+      title: Glide Testing
   settings:
     height: 400
-    effect: "'fade'"
 
 - selector: bat
   bullets: true
@@ -104,6 +127,24 @@
     height: 400
 
 - selector: firefighter
+
+- selector: impeller
+  bullets: true
+  captions: true
+  images:
+    - src: /images/projects/impeller/designparameter.png
+    - src: /images/projects/impeller/orthographic.PNG
+    - src: /images/projects/impeller/orthographic.PNG
+    - src: /images/projects/impeller/outlet.PNG
+    - src: /images/projects/impeller/isometric2.PNG
+    - src: /images/projects/impeller/calc.PNG
+    - src: /images/projects/impeller/totalpressure.PNG
+    - src: /images/projects/impeller/streamline.PNG
+    - src: /images/projects/impeller/velocitycontour.PNG
+    - src: /images/projects/impeller/pvsq.PNG
+    - src: /images/projects/impeller/povsq.PNG
+  settings:
+    height: 400
 
 - selector: carburetor
   bullets: true
