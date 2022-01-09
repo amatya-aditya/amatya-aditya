@@ -19,13 +19,15 @@
 
 - title: Learnings
   url: /learnings/
-  # sublinks:
-    
-  #   - title: Fluid Mechanics
-  #     url: /fluid-mechanics/
+  sublinks:
+    - title: All
+      url: /learnings/
 
-  #   - title: Numerical Methods
-  #     url: /numerical-methods/
+    - title: Numerical Methods
+      url: /numerical-methods/
+    
+    - title: CFD
+      url: /cfd/
 
 
 - title: Blog

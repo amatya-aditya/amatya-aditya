@@ -59,6 +59,7 @@
     font-size: 1em !important;
     padding-bottom: 1em;
     padding-right: 1em;
+    padding-left: 1em;
     background-color: white;
         @include media-query($on-palm) {
         float: none;

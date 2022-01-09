@@ -3,7 +3,7 @@ title: Blackcurrant Jekyll Theme
 image: /assets/images/blackcurrant.jpg
 author: John Doe
 categories:
-  - blog
+  - design
 layout: post-slider-toc
 ---
 
@@ -397,3 +397,22 @@ With all these goodness, you will also get full support for 3 months.
 <span class="right"><strong>✓</strong></span> Help with included 3rd party assets.
 
 You can always leave us an email at `hello@webjeda.com`.
+### Highlight Your Projects
+
+Adding projects to your portfolio is similar to adding blog posts. You can now add more content to individual projects.
+
+Add new projects inside `_projects` directory. It will be automaticaly listed in the projects page.
+
+### Bootsrap 4
+
+{{site.title}} is built on the latest Bootstrap 4 Framework. The theme can be easily customized using bootstrap elements.
+
+### Attractive Layout
+
+A dedicated and constant sidebar highlights the author, which is ideal for **personal branding**.
+
+### Superfast Loading Speed
+
+The website is light and superfast. It loads completely within 3 seconds in most cases. [Check Speed](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fblackcurrant.jekyll-themes.com%2F){: target="\_blank" rel="nofollow" }.
+
+### Multiple color schemes

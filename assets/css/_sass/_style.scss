@@ -71,7 +71,7 @@ a.nostyle {
   grid-template-columns: repeat(13, 0.7fr);
   grid-template-rows: repeat(auto, 100px);
   grid-gap: 10px;
-  max-width: 1300px;
+  max-width: 1228px;
   margin: 0 auto;
   
 //   min-height: 100vh;
@@ -119,7 +119,7 @@ a.nostyle {
   background-color: #fff;
 //   border-top: 10px solid $brand-color;
   @include media-query($on-laptop) {
-    grid-column: 1 / 11;
+    grid-column: 1 / 10;
   }
 }
 
@@ -137,8 +137,15 @@ a.nostyle {
     padding-top:2em;
     padding-left: 1em;
     margin: 0 2em 0 1em;
-    @include media-query($on-laptop) {
+
+    @media screen and (max-width: 800px){
+        .outline {
         grid-column: 10 / 14;
+            }
+    }
+    
+    @media screen and(max-width: 600px) {
+        display: none;
     }
 
 
@@ -250,6 +257,11 @@ a.nostyle {
     box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
     -webkit-box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
     padding:1.5em;
+    text-align: justify;
+    display: flex;
+    max-width: 792px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .commentbox{
