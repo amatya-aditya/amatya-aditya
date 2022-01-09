@@ -52,6 +52,9 @@
 <loc>http://localhost:4000/categories/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/cfd/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
