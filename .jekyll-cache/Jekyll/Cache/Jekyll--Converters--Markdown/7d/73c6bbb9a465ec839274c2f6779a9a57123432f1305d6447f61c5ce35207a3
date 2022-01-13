@@ -1,0 +1,18 @@
+I"Ó<h2 id="radial-vane-impeller">Radial Vane Impeller</h2>
+
+<p>This project was submitted as a partial fulfillment for Turbomachinery class. The project was intended to provide the basic knowledge of the radial vane impeller.</p>
+
+<h3 id="image-slider-of-the-radial-vane-impeller">Image-Slider of the Radial Vane Impeller</h3>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div>
+  </div>
+
+<h3 id="report-of-the-radial-vane-impeller">Report of the Radial Vane Impeller</h3>
+
+<div class="embed-pdf">
+<object data="http://localhost:4000/images/projects/theoJansen/theoJansen" width="100%" height="100%" type="application/pdf"></object>
+</div>
+:ET

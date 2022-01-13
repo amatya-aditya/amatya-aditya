@@ -255,3 +255,5 @@
     - src: /images/ansys-simulation/heat-exchanger/velocity2.jpg
   settings:
     height: 382
+
+- selector: theoJansen

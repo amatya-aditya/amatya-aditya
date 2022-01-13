@@ -2,10 +2,30 @@
 
 {
 "category": "design",
+"title": "The FireFighter",
+"description": "The FireFighterThe FireFighter was an autonomous prototype robot that could s...",
+"url": "/projects/thefirefighter/",
+"image": "/images/projects/firefighter/thefirefighter.png",
+"author": ""
+}
+,
+
+{
+"category": "design",
 "title": "BAT",
 "description": "Buoyancy Assisted Trash Cleaner (BAT)Buoyancy Assisted Trash Cleaner (BAT) wa...",
 "url": "/projects/bat/",
 "image": "/images/projects/bat/2.png",
+"author": ""
+}
+,
+
+{
+"category": "mechanism",
+"title": "Jansen's Linkage",
+"description": "Jansen’s LinkageThe work was intended to mimics the walking motion of the ani...",
+"url": "/projects/theoJansen/",
+"image": "/images/projects/theoJansen/theoJansen.gif",
 "author": ""
 }
 ,
@@ -28,23 +48,13 @@
 "image": "/images/projects/munal/fabricated-model.jpg",
 "author": ""
 }
-,
-
-{
-"category": "design",
-"title": "The FireFighter",
-"description": "The FireFighterThe FireFighter was an autonomous prototype robot that could s...",
-"url": "/projects/thefirefighter/",
-"image": "/images/projects/firefighter/firefighter-1.jpg",
-"author": ""
-}
 
 
 
 ,
 
 {
-"category": "simulation",
+"category": "cfd, simulation",
 "title": "Carburetor",
 "description": "Design and Flow analysis through Perforated tube in Carburetor               ...",
 "url": "/learnings/carburetor/",
@@ -65,30 +75,10 @@
 
 {
 "category": "simulation",
-"title": "Cyclone Separator",
-"description": "Design and CFD Analysis of Cyclone Separator            ",
-"url": "/learnings/cycloneseparator/",
-"image": "/images/ansys-simulation/cyclone separator/model.jpg",
-"author": ""
-}
-,
-
-{
-"category": "simulation",
 "title": "Engine Block",
 "description": "Design and Analysis of Engine Block                ",
 "url": "/learnings/engineblock/",
 "image": "/images/ansys-simulation/engine-block/model.png",
-"author": ""
-}
-,
-
-{
-"category": "simulation",
-"title": "Heat Exchanger",
-"description": "Design and CFD Analysis of Heat Exchanger                          ",
-"url": "/learnings/heat-exchanger/",
-"image": "/images/ansys-simulation/heat-exchanger/modelwithbaffle.jpg",
 "author": ""
 }
 ,
@@ -114,11 +104,41 @@
 ,
 
 {
+"category": "cfd, simulation",
+"title": "Cyclone Separator",
+"description": "Design and CFD Analysis of Cyclone Separator",
+"url": "/learnings/cycloneseparator/",
+"image": "/images/ansys-simulation/cyclone separator/model.jpg",
+"author": ""
+}
+,
+
+{
+"category": "cfd, simulation",
+"title": "Heat Exchanger",
+"description": "Design and CFD Analysis of Heat Exchanger                          ",
+"url": "/learnings/heat-exchanger/",
+"image": "/images/ansys-simulation/heat-exchanger/modelwithbaffle.jpg",
+"author": ""
+}
+,
+
+{
 "category": "numerical-methods, python",
 "title": "Linear Algebra and System of Linear Equations",
 "description": "Coming Soon. Thank you for visiting !",
 "url": "/numerical-methods/linear-algebra/",
 "image": "/images/numerical_methods/linear_algebra1.jpg",
+"author": ""
+}
+,
+
+{
+"category": "cfd, simulation",
+"title": "Von Karman Effect",
+"description": "Visualization of Von Karman Effect  Von-Karman EffectIn fluid dynamics, Von k...",
+"url": "/learnings/von-karman/",
+"image": "/images/ansys-simulation/vonKarman/vonKarman2.gif",
 "author": ""
 }
 

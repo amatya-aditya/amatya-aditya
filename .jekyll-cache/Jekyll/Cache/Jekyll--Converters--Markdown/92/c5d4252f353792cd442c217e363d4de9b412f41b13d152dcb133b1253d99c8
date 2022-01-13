@@ -1,0 +1,17 @@
+I"N<h2 id="jansens-linkage">Jansen’s Linkage</h2>
+
+<p>The work was intended to mimics the walking motion of the animal. This project was submitted as a partial fulfillment for Theory of Machines class.</p>
+
+<div>
+<object data="http://localhost:4000/images/projects/theoJansen/theoJansen.gif" width="100%" height="100%" type="image/gif"></object>
+</div>
+
+<h3 id="image-slider-of-the-jansens-linkage">Image-Slider of the Jansen’s Linkage</h3>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div>
+  </div>
+
+:ET

@@ -7,7 +7,8 @@ date:  2020-04-12
 image_sliders:
   - carburetor
 categories:
-  - simulation 
+  - cfd 
+  - simulation
 tags:
  - CFD
 ---

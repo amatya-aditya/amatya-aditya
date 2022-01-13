@@ -1,0 +1,14 @@
+I"e<h2 id="visualization-of-von-karman-effect">Visualization of Von Karman Effect</h2>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div>
+  </div>
+
+<div>
+<object data="http://localhost:4000/images/ansys-simulation/vonKarman/vonKarman.gif" width="100%" height="100%" type="image/gif"></object>
+</div>
+
+<p>In fluid dynamics, Von karman effect is a common vertex effec repeating pattern of swirling vortices, cause by process called vortex shredding which is responsible for unsteady fluid flow sepeeration around blunt bodies.</p>
+:ET

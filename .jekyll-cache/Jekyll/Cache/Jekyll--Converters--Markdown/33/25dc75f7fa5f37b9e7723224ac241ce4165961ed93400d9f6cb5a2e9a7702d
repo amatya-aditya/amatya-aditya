@@ -1,0 +1,18 @@
+I"�<h2 id="jansens-linkage">Jansen’s Linkage</h2>
+
+<p>The project was intended to provide the basic knowledge of the radial vane impeller. This project was submitted as a partial fulfillment for Turbomachinery class.</p>
+
+<h3 id="image-slider-of-the-jansens-linkage">Image-Slider of the Jansen’s Linkage</h3>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div>
+  </div>
+
+<h3 id="report-of-the-radial-vane-impeller">Report of the Radial Vane Impeller</h3>
+
+<div class="embed-pdf">
+<object data="http://localhost:4000/images/projects/theoJansen/theoJansen" width="100%" height="100%" type="image/gif"></object>
+</div>
+:ET
