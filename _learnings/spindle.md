@@ -3,7 +3,7 @@ layout: post-slider-toc
 title: Spindle
 image: /images/ansys-simulation/Spindle/model.jpg
 description: Spindle was modelled and simulated to observe the structural behaviour under external loads.
-date:  2020-04-12
+date:  2019-06-12
 image_sliders:
   - spindle
 categories:
