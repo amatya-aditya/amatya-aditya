@@ -83,7 +83,6 @@ This layout is used in all post with table of conetent. Making changes here will
 
     <div class="wrapper" >
       <div class="container-grid">
-          
         <div class="main-post">
             
           <div class="main-container shadow">
@@ -92,9 +91,6 @@ This layout is used in all post with table of conetent. Making changes here will
 
             <div id="search-container"></div>
 
-            
-
-            
 
             <div>
                 {% include collections-next-prev.html %}
@@ -104,8 +100,6 @@ This layout is used in all post with table of conetent. Making changes here will
                 <i> {% if site.share %} {% include share-buttons.html %} {% endif %}</i>
             </span>
 
-            
-                        
             </div>
             
             <div class="commentbox">
@@ -118,8 +112,8 @@ This layout is used in all post with table of conetent. Making changes here will
             
             </div>
             
-            <div class="outline shadow"> 
-            <div class="outlinescroller">
+            <div  class="outline shadow" id="scrollbar-1"> 
+            <div  class="outlinescroller">
             <!-- <div class="searchbar">
                 <div class="input-group mb-3" data-aos="zoom-in">
                     <input type="text" placeholder="Search.." class="form-control border-right-0" id="search-input" />
@@ -129,10 +123,13 @@ This layout is used in all post with table of conetent. Making changes here will
                 </div>
             </div> -->
 
-            {% if site.toc %} {% include toc.html html=content class="toc2 rev clearfix"%}
-            {% endif %}
+            <div>
+                {% if site.toc %} {% include toc.html html=content  class="toc2 rev clearfix"%}{% endif %}
             </div>
+
+
             
+            </div>
             </div>
 
 
@@ -143,7 +140,6 @@ This layout is used in all post with table of conetent. Making changes here will
             
 
       </div>
-      
     </div>
 
 

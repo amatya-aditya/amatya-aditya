@@ -69,9 +69,11 @@
     }
     &:before {
         content: "On this page";
+        text-decoration:underline;
         font-weight: bold;
         line-height: 1.8;
         font-size: 1.2rem;
+        text-align: center;
     }
 
     li {
@@ -83,6 +85,11 @@
 .toc2 li a:hover{
     text-decoration: underline !important;
 }
+
+
+
+
+
 
 
 .toc_active{

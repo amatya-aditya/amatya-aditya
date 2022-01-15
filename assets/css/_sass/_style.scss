@@ -132,7 +132,7 @@ a.nostyle {
     grid-column: 10 / 14;
     position: sticky;
     top: 3.1em;
-    height: 100vh;
+    height: 92vh;
     overflow-y: auto;
     padding-top:2em;
     padding-left: 1em;
@@ -153,16 +153,31 @@ a.nostyle {
 }
 
 
+#scrollbar-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 6px;
+	background-color: inherit;
+    
+}
 
-// .outline::-webkit-scrollbar {
-//   display: none;
-// }
+#scrollbar-1::-webkit-scrollbar
+{
+	width: 8px;
+    padding-top:1px;
 
-// /* Hide scrollbar for IE, Edge and Firefox */
-// .outline {
-//   -ms-overflow-style: none;  /* IE and Edge */
-//   scrollbar-width: none;  /* Firefox */
-// }
+	background-color: inherit;
+    
+}
+
+#scrollbar-1::-webkit-scrollbar-thumb
+{
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #8b8a8a;
+    height:50px !important;
+}
+
 
 
 
