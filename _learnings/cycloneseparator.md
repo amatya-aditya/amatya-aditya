@@ -15,4 +15,6 @@ tags:
 
 ## Design and CFD Analysis of Cyclone Separator
 
+{% include slider.html selector="cycloneseparator" %}
+
 
