@@ -6,7 +6,7 @@ description: I care about my readers' opinions. Please leave a note or just say 
 ---
 
 ### Write to me
-I care about my readers' opinions. Please leave a note or just say hello.
+Thank you for paying a  visit. I would love to hear from you. Please leave a note or just say hello.
 
 <form accept-charset="utf-8" action="https://formspree.io/f/mwkyppdk" method="POST">
     <div class="form-group">
