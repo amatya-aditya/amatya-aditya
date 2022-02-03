@@ -1,0 +1,29 @@
+I"q<h2 id="buoyancy-assisted-trash-cleaner-bat">Buoyancy Assisted Trash Cleaner (BAT)</h2>
+
+<p>Buoyancy Assisted Trash Cleaner (BAT) was an engineering project designed and fabricated to be pedalled like a bicycle on stagnant water bodies such as lakes to automatically collect floating debris and weeds.</p>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div id="bat">
+  <img data-src="" data-src-2x="" src="/images/projects/bat/batlatest.jpg" title="" alt="" />
+  <img data-src="" data-src-2x="" src="/images/projects/bat/bat2.jpg" title="" alt="" />
+  <img data-src="" data-src-2x="" src="/images/projects/bat/bat3.jpg" title="" alt="" />
+  </div>
+
+<h3 id="problem-statement">Problem Statement</h3>
+<p>We observed that the major pollutant for the water resources were suspended solid objects. Cleaning of large pond and lake was tedious and almost impossible to carryout. Because of this, the purpose of these water resources were not attained. It lost its natural beauty as well asits ability to support living beings. 
+We, a team of four, started with a vision to fabricate a machine capable to clean those floating debries. After days of brainstormin, a design was selected. Initially, we decided to use completely new supplies for the fabrication of the machine. But, later on we concluded to construct it using the discarded material available in our Campus junkyard.</p>
+
+<p>We won <span class="bigger" style="color: #017600e3;"><u>Best Application Award</u></span> for the project in National Level Design Competition. We completely relied on our numerical calculation to test the machine on a pool of water.</p>
+
+<h3 id="tools-used">Tools Used</h3>
+<p>SolidWorks, Lathe, Drilling and Grinding machine.</p>
+
+<p><button onclick="hideShow()">Try it</button></p>
+
+<div id="hideDiv">
+This is my DIV element.
+</div>
+
+:ET

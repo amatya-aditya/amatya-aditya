@@ -28,3 +28,7 @@ We won <span class="bigger" style="color: #017600e3;"><u>Best Application Award<
 SolidWorks, Lathe, Drilling and Grinding machine.
 
 
+
+<!-- <button class="Show">Show</button>
+<button class="Hide">Hide</button>
+<div id="hideShow">This is the content</div> -->

@@ -106,3 +106,21 @@ $(document).ready(function () {
        }
     });
 });
+
+
+
+// Hide and Show Element
+
+$('.Show').click(function() {
+    $('#hideShow').show(500);
+    $('.Show').hide(0);
+    $('.Hide').show(0);
+});
+$('.Hide').click(function() {
+    $('#hideShow').hide(500);
+    $('.Show').show(0);
+    $('.Hide').hide(0);
+});
+$('.toggle').click(function() {
+    $('#hideShow').toggle('slow');
+});

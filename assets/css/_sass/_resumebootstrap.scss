@@ -3125,7 +3125,7 @@ textarea.form-control.is-invalid {
 
 .btn {
     
-    font-weight: 600;
+    font-weight: 400 !important;
     line-height: 1.5;
     color: #212529;
     text-align: center;
@@ -7394,6 +7394,7 @@ fieldset:disabled .btn {
 
 .rounded a:hover{
     color:#2c2c2c !important;
+    
 }
 
 
@@ -7411,7 +7412,8 @@ fieldset:disabled .btn {
 }
 
 .border:hover{
-    transform: translateY(-3px);
+    transform: translateY(-1px);
+    background-color: #8ad2a53b !important;
 }
 
 .border-0 {

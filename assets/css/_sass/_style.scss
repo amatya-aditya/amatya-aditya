@@ -85,6 +85,15 @@ a.nostyle {
     
 }
 
+.Hide
+{
+  display:none;
+}
+
+#hideShow{
+      display:none;
+}
+
 .sidebar {
   grid-column: 1 / 4;
   min-height: 100vh;
@@ -416,7 +425,7 @@ p{
       color: rgb(54, 49, 49);
       background: #31313100;
       &:hover {
-        background: $brand-color;
+        background: #8ad2a53b;
       }
     }
   }
