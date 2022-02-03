@@ -76,9 +76,9 @@ table tr th {
 }
 
 .border:hover{
+    transform: translateY(-1px)!important;
     background-color: #8ad2a53b !important;
 }
-
 .portfolioFilter li a {
     background-color: #b8b8b860;
 }
