@@ -18,7 +18,7 @@ tags:
 {% include slider.html selector="vonKarman" %}
 
 <div>
-<object data="{{ site.url }}{{ site.baseurl }}/images/ansys-simulation/vonKarman/vonKarman.gif" width="100%" height="100%" type="image/gif"></object>
+<object data="{{ site.url }}{{ site.baseurl }}/images/ansys-simulation/vonKarman/vonKarman.gif" width="100%" height="100%" type="image/gif"><object>
 </div>
 
 ## Von-Karman Effect
