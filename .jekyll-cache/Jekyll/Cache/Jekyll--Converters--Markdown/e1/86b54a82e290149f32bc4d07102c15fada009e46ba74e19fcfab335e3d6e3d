@@ -1,4 +1,4 @@
-I".<h2 id="visualization-of-von-karman-effect">Visualization of Von Karman Effect</h2>
+I"E<h2 id="visualization-of-von-karman-effect">Visualization of Von Karman Effect</h2>
 
 <!-- Jekyll Ideal Image Slider Include -->
 <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
@@ -10,7 +10,7 @@
 <object data="http://localhost:4000/images/ansys-simulation/vonKarman/vonKarman.gif" width="100%" height="100%" type="image/gif"></object>
 </div>
 
-<p><img src="/media/cc0-images/grapefruit-slice-332-332.jpg" alt="Grapefruit slice atop a pile of other slices" /></p>
+<p><img src="http://localhost:4000/images/ansys-simulation/vonKarman/vonKarman.gif" alt="Grapefruit slice atop a pile of other slices" /></p>
 
 <h2 id="von-karman-effect">Von-Karman Effect</h2>
 <p>In fluid dynamics, Von karman effect is a common vortex effect in which there is a repeating pattern of swirling vortices which are caused by the process called vortex shedding. These vortices are responsible for unsteady fluid flow separation around blunt bodies.</p>

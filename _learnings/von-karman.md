@@ -22,8 +22,6 @@ tags:
 </div>
 
 
-<img src="/media/cc0-images/grapefruit-slice-332-332.jpg" alt="Grapefruit slice atop a pile of other slices">
-
 ## Von-Karman Effect
 In fluid dynamics, Von karman effect is a common vortex effect in which there is a repeating pattern of swirling vortices which are caused by the process called vortex shedding. These vortices are responsible for unsteady fluid flow separation around blunt bodies.
 
