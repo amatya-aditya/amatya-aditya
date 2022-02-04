@@ -4,6 +4,8 @@ title: Von Karman Effect
 image: /images/ansys-simulation/vonKarman/vonKarman2.gif
 description: The simulation of fluid flow over cylinder was done to visualize the von Karman .
 date:  2021-08-18
+color: blue
+location: 2n+1
 image_sliders:
   - vonKarman
 categories:

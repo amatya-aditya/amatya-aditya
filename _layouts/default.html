@@ -69,6 +69,7 @@ This layout is used in all pages. Making changes here will efect all pages. We r
                     {% assign links = site.data.navigation %}
                     {% for link in links %}
                     {% assign class = nil %}
+                    
                     {% if page.url contains link.url %}
                     {% assign class = 'nav-active' %}
                     {% endif %}
@@ -112,14 +113,14 @@ This layout is used in all pages. Making changes here will efect all pages. We r
     {% if site.data.main.color-scheme-changer-widget %} {% include
     demo-color-scheme-selector.html %} {% endif %}
 
-    <!-- <div class="loader">
+    {% comment %} <div class="loader">
       <div class="lds-ring">
         <div></div>
         <div></div>
         <div></div>
         <div></div>
       </div>
-    </div> -->
+    </div> {% endcomment %}
 
 
 

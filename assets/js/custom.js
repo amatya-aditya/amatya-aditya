@@ -124,3 +124,11 @@ $('.Hide').click(function() {
 $('.toggle').click(function() {
     $('#hideShow').toggle('slow');
 });
+
+
+// Featured Post
+
+$('.list-reset li').on('click', function(){
+	$('.list-reset li').removeClass('featured-active')
+	$(this).addClass('featured-active')
+})

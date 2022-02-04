@@ -6,11 +6,9 @@ description: Numerical Methods using Python
 ---
 
 
-<section id="closepad" id="first" class="main special" class="section bg-light" id="projects">
+{% comment %} <section id="closepad" id="first" class="main special" class="section bg-light" id="projects">
     <div class="container">
 
-
-        <!--Categories-Filter-Start-- Add more Categories  if you want include only these categories in projects-->
 
         <!-- <div class="row mt-4 pt-2">
             <div class="col-lg-12">
@@ -116,4 +114,106 @@ description: Numerical Methods using Python
             
         </div>
     </div>
+</section> {% endcomment %}
+
+<section class="lighted">
+	<div class="container">
+		<div class="h1 text-center text-dark" id="pageHeaderTitle">Numerical Methods</div>
+
+        {% assign sorted = site.learnings | sort: 'date' | reverse %} {% for item in sorted %}
+
+        {% if item.categories[0] == "numerical-methods" %}
+
+        {% if item.location == "n" %}
+
+		<article class="postcard light {{item.color}}">
+            
+			<a class="postcard__img_link" href="{{item.url  | relative_url }}">
+                
+				<img class="postcard__img" src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                
+			</a>
+            
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title {{item.color}}"><a href="{{item.url  | relative_url }}">{{item.title}}</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="{{ item.date | date_to_xmlschema }}">
+						<i class="fas fa-calendar-alt mr-2"></i>{{ item.date | date: "%B %-d, %Y" }}
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">{{item.description | strip_html | truncate: 110 }}</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>
+                                        {% if item.tags[0] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[1] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[2] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[3] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[4] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[5] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        
+                    </li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>{% include reading-time.html %}
+                    </li>
+					<li class="tag__item play {{item.color}}">
+						<a href="{{item.url  | relative_url }}"><i class="fas fa-book mr-2"></i>Read More</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+
+        {% endif %}
+
+        
+
+        {% if item.location == "2n+1" %}
+		<article class="postcard light {{item.color}}">
+			<a class="postcard__img_link" href="{{item.url  | relative_url }}">
+				<img class="postcard__img" src="{{item.image | relative_url}}" alt="{{item.title}}" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title {{item.color}}"><a href="{{item.url  | relative_url }}">{{item.title}}</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="{{ item.date | date_to_xmlschema }}">
+						<i class="fas fa-calendar-alt mr-2"></i>{{ item.date | date: "%B %-d, %Y" }}
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">{{item.description | strip_html | truncate: 110 }}</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>
+                                        {% if item.tags[0] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[1] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[2] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[3] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[4] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[5] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        
+                    </li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>{% include reading-time.html %}
+                    </li>
+					<li class="tag__item play {{item.color}}">
+						<a href="{{item.url  | relative_url }}"><i class="fas fa-book mr-2"></i>Read More</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+        {% endif %}
+        
+            {% endif %}
+            {% endfor %}
+
+	</div>
 </section>

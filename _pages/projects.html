@@ -5,7 +5,7 @@ permalink: /projects/
 description: These are the projects I have worked on.
 ---
 
-<!-- {% assign sorted = site.projects | sort: 'date' | reverse %} {% for item in
+ {% comment %} {% assign sorted = site.projects | sort: 'date' | reverse %} {% for item in
 sorted %}
 <a href="{{item.url  | relative_url }}" class="nostyle">
   <div
@@ -30,7 +30,7 @@ sorted %}
     </div>
   </div>
 </a>
-{% endfor %} -->
+{% endfor %}  {% endcomment %}
 
 
 <div class="articlecardeds">
@@ -82,4 +82,4 @@ sorted %}
         {% endfor %}
 
     </div>
-</div>
+</div> 
