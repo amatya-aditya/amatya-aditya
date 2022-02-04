@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pageWithoutLeftSidebar
 title: Publications
 permalink: /publications/
 description: These are my Published papers.

@@ -29,6 +29,4 @@ SolidWorks, Lathe, Drilling and Grinding machine.
 
 
 
-<!-- <button class="Show">Show</button>
-<button class="Hide">Hide</button>
-<div id="hideShow">This is the content</div> -->
+

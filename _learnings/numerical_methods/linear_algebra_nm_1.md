@@ -16,3 +16,7 @@ permalink: /numerical-methods/linear-algebra/
 ---
 
 Coming Soon. Thank you for visiting !!!
+
+<!-- <button class="Show">Show</button>
+<button class="Hide">Hide</button>
+<div id="hideShow">This is the content</div> -->

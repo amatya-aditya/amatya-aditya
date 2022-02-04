@@ -72,6 +72,7 @@ a.nostyle {
   grid-template-rows: repeat(auto, 100px);
   grid-gap: 10px;
   max-width: 1228px;
+// max-width: 100vw;
   margin: 0 auto;
   
 //   min-height: 100vh;
@@ -120,6 +121,14 @@ a.nostyle {
 //   border-top: 10px solid $brand-color;
   @include media-query($on-laptop) {
     grid-column: 5 / 13;
+  }
+}
+
+.mainWithouLeftSidebar{
+    grid-column: 2 / 13;
+       border-top: 2px solid $brand-color;
+  @include media-query($on-laptop) {
+    grid-column: 2 / 13;
   }
 }
 

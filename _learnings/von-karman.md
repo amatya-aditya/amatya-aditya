@@ -2,7 +2,7 @@
 layout: post-slider-toc
 title: Von Karman Effect
 image: /images/ansys-simulation/vonKarman/vonKarman2.gif
-description: The simulation of fluid flow over cylinder was done to visualize the von Karman .
+description: The fluid flow over cylinder was observed at different Reynolds number ranging from 5 to 3.5e6. The effect of Reynolds number was analysed and behavior of von karman street over different regimes was analysed.
 date:  2021-08-18
 color: blue
 location: 2n+1
@@ -14,6 +14,8 @@ categories:
 tags:
  - CFD
 ---
+
+During this project, the fluid flow over cylinder was observed at different Reynolds number ranging from 5 to 3.5e6. The effect of Reynolds number was analysed and behavior of von karman street over different regimes was analysed.
 
 ## Visualization of Von Karman Effect
 
@@ -35,3 +37,6 @@ $$ \\ Characteristic ~ length  = L =Diameter ~ of ~ Cylinder  = 200 ~ mm$$
 $$ \\ Reynolds ~ Number  = Re = \frac{\rho \times V \times L}{\mu} \approx 16773 \times v$$
 
 Here, The velocity used in the simulation was $$ 0.156 m/s $$ which results in the Reynolds number $$\approx 2617$$.
+
+
+<h3> Undergoing Project: Details coming soon</h3>

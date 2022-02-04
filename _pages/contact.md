@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pageWithoutLeftSidebar
 title: Contact
 permalink: /contact/
 description: I care about my readers' opinions. Please leave a note or just say hello.
