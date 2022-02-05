@@ -4,7 +4,7 @@ title: Heat Exchanger
 image: /images/ansys-simulation/heat-exchanger/modelwithbaffle.jpg
 description: The CFD simulation was performed to observe the temperature, presssure and velocity at different location in the heat exchanger.
 date:  2020-06-18
-color: green
+color: yellow
 location: 2n+1
 image_sliders:
   - heatexchanger

@@ -4,7 +4,7 @@ title: Cyclone Separator
 image: /images/ansys-simulation/cyclone separator/model.jpg
 description: The Cyclone Separator was modelled and then the mixture of fluid and particles was simulated using ANSYS Fluent to observe the flow behavior in the designed model.
 date:  2021-01-08
-color: yellow
+color: blue
 location: n
 image_sliders:
   - cycloneseparator
