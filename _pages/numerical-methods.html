@@ -130,7 +130,20 @@ description: Numerical Methods using Python
             
 			<a class="postcard__img_link" href="{{item.url  | relative_url }}">
                 
-				<img class="postcard__img" src="{{item.image | relative_url}}" alt="{{item.title}}" />
+				<div class="postcard__img">
+
+                {% if item.video %}    
+                        <video width="100%" height="260" autoplay loop muted playsinline >
+                            <source src="{{item.video | relative_url}}" alt="{{item.title}}" />
+                                            Your browser does not support the video tag.
+                        </video>
+
+                {% else %}
+                            <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                
+                {% endif %}
+                
+                </div> 
                 
 			</a>
             
@@ -175,7 +188,20 @@ description: Numerical Methods using Python
         {% if item.location == "2n+1" %}
 		<article class="postcard light {{item.color}}">
 			<a class="postcard__img_link" href="{{item.url  | relative_url }}">
-				<img class="postcard__img" src="{{item.image | relative_url}}" alt="{{item.title}}" />
+				<div class="postcard__img">
+
+                {% if item.video %}    
+                        <video width="100%" height="260" autoplay loop muted playsinline >
+                            <source src="{{item.video | relative_url}}" alt="{{item.title}}" />
+                                            Your browser does not support the video tag.
+                        </video>
+
+                {% else %}
+                            <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                
+                {% endif %}
+                
+                </div> 
 			</a>
 			<div class="postcard__text t-dark">
 				<h1 class="postcard__title {{item.color}}"><a href="{{item.url  | relative_url }}">{{item.title}}</a></h1>

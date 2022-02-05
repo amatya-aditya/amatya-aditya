@@ -23,7 +23,15 @@
         <a href="{{item.url  | relative_url }}" class="nostyle">
             <div class="carded">
                 <div class="carded-header">
-                    <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                    {% if item.video %}    
+                        <video autoplay loop muted playsinline >
+                            <source src="{{item.video | relative_url}}" alt="{{item.title}}" />
+                                            Your browser does not support the video tag.
+                        </video>
+
+                        {% else %}
+                            <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                        {% endif %}
                 </div>
                 <div class="carded-body">
                     <div class="carded-main">
