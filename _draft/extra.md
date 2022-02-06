@@ -13,3 +13,9 @@
                                     <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
 
                                     {% endif %}
+
+
+
+<!-- <button class="Show">Show</button>
+<button class="Hide">Hide</button>
+<div id="hideShow">This is the content</div> -->
