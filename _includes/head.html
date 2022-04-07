@@ -108,6 +108,10 @@
     type="image/x-icon"
   />
 
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+
   {% if site.analytics %} {% include analytics-lite.html %} {% endif %} {% if
   site.enable-mathjax %}
   <script
