@@ -105,15 +105,17 @@
   <link
     rel="icon"
     href="{{'/assets/img/favicon.ico' | relative_url }}"
-    type="image/x-icon"
-  />
+    type="image/x-icon"/>
 
+  {% include analytics.html %}
+<!-- 
   {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
-  {% endif %}
+  {% endif %} -->
 
-  {% if site.analytics %} {% include analytics-lite.html %} {% endif %} {% if
-  site.enable-mathjax %}
+  <!-- {% if site.analytics %} {% include analytics-lite.html %} {% endif %}  -->
+
+  {% if site.enable-mathjax %}
   <script
     async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
