@@ -82,7 +82,7 @@ a.nostyle {
     
   }
 //   padding-right:1.1em;
-  padding-left:.8em;
+//   padding-left:.8em;
     
 }
 
@@ -133,8 +133,9 @@ a.nostyle {
 }
 
 .main-post {
-  grid-column: 2 / 10;
+  grid-column: 1 / 10;
   background-color: #fff;
+  margin-left: 60px;
 //   border-top: 10px solid $brand-color;
   @include media-query($on-laptop) {
     grid-column: 1 / 10;
@@ -154,7 +155,7 @@ a.nostyle {
     overflow-y: auto;
     padding-top:2em;
     padding-left: 1em;
-    margin: 0 2em 0 1em;
+    margin-right: 30px;
 
     @media screen and (max-width: 800px){
         .outline {
