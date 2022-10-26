@@ -19,7 +19,7 @@
 <div class="articlecardeds">
 
     <div class="container-cards">
-        {% assign sorted = site.projects | sort: 'date' | reverse %} {% for item in sorted limit:6 %}
+        {% assign sorted = site.projects | sort: 'code' %} {% for item in sorted limit:15 %}
         <a href="{{item.url  | relative_url }}" class="nostyle">
             <div class="carded">
                 <div class="carded-header">
@@ -36,7 +36,7 @@
                 <div class="carded-body">
                     <div class="carded-main">
 
-                        <h5 class="pt-2">
+                        <h5 class="pt-4">
                             {{item.title}}
                         </h5>
                         <p>

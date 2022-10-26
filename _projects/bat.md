@@ -10,6 +10,8 @@ categories:
   - design 
 tags:
   - machine design 
+code:
+  - 1Pb
 ---
 
 ## Buoyancy Assisted Trash Cleaner (BAT)

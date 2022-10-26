@@ -13,6 +13,9 @@ tags:
     - NM-01
     - python
 permalink: /numerical-methods/linear-algebra/
+
+code:
+ - 8L1N
 ---
 
 Coming Soon. Thank you for visiting !!!

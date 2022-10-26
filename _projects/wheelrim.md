@@ -11,6 +11,9 @@ categories:
   - simulation 
 tags:
  - structural
+ - Simulation
+code:
+ - 2L2
 ---
 
 ## Design and Structural Analysis of Wheel Rim

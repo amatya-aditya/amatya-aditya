@@ -21,11 +21,31 @@
 ,
 
 {
+"category": "simulation",
+"title": "Crankshaft",
+"description": "Design and Structural Analysis of Crankshaft                ",
+"url": "/projects/crankshaft/",
+"image": "/images/ansys-simulation/crankshaft/model.jpg",
+"author": ""
+}
+,
+
+{
 "category": "mechanism",
 "title": "Jansen's Linkage",
 "description": "Jansen’s LinkageThe work was intended to mimic the walking motion of the anim...",
 "url": "/projects/theoJansen/",
 "image": "/images/projects/theoJansen/theoJansen2.gif",
+"author": ""
+}
+,
+
+{
+"category": "simulation",
+"title": "Wheel Rim",
+"description": "Design and Structural Analysis of Wheel Rim                    ",
+"url": "/projects/wheelrim/",
+"image": "/images/ansys-simulation/wheel-rim/Model.png",
 "author": ""
 }
 ,
@@ -41,43 +61,10 @@
 ,
 
 {
-"category": "UAV, Fluid",
-"title": "Munal M-72",
-"description": "Munal M-72Munal M-72 is a fixed-wing RC plane developed as the final year pro...",
-"url": "/projects/munal/",
-"image": "/images/projects/munal/fabricated-model.jpg",
-"author": ""
-}
-
-
-
-,
-
-{
-"category": "simulation",
-"title": "Crankshaft",
-"description": "Design and Structural Analysis of Crankshaft                ",
-"url": "/learnings/crankshaft/",
-"image": "/images/ansys-simulation/crankshaft/model.jpg",
-"author": ""
-}
-,
-
-{
-"category": "simulation",
-"title": "Wheel Rim",
-"description": "Design and Structural Analysis of Wheel Rim                    ",
-"url": "/learnings/wheelrim/",
-"image": "/images/ansys-simulation/wheel-rim/Model.png",
-"author": ""
-}
-,
-
-{
 "category": "simulation",
 "title": "Spindle",
 "description": "Design and Structural Analysis of Spindle                      ",
-"url": "/learnings/spindle/",
+"url": "/projects/spindle/",
 "image": "/images/ansys-simulation/Spindle/model.jpg",
 "author": ""
 }
@@ -87,8 +74,18 @@
 "category": "simulation",
 "title": "Engine Block",
 "description": "Design and Analysis of Engine Block                ",
-"url": "/learnings/engineblock/",
+"url": "/projects/engineblock/",
 "image": "/images/ansys-simulation/engine-block/model.png",
+"author": ""
+}
+,
+
+{
+"category": "UAV, Fluid",
+"title": "Munal M-72",
+"description": "Munal M-72Munal M-72 is a fixed-wing RC plane developed as the final year pro...",
+"url": "/projects/munal/",
+"image": "/images/projects/munal/fabricated-model.jpg",
 "author": ""
 }
 ,
@@ -97,7 +94,7 @@
 "category": "cfd, simulation",
 "title": "Heat Exchanger",
 "description": "Design and CFD Analysis of Heat Exchanger                          ",
-"url": "/learnings/heat-exchanger/",
+"url": "/projects/heat-exchanger/",
 "image": "/images/ansys-simulation/heat-exchanger/modelwithbaffle.jpg",
 "author": ""
 }
@@ -107,7 +104,7 @@
 "category": "cfd, simulation",
 "title": "Cyclone Separator",
 "description": "Design and CFD Analysis of Cyclone Separator            ",
-"url": "/learnings/cycloneseparator/",
+"url": "/projects/cycloneseparator/",
 "image": "/images/ansys-simulation/cyclone separator/model.jpg",
 "author": ""
 }
@@ -117,7 +114,7 @@
 "category": "cfd, simulation",
 "title": "Carburetor",
 "description": "Design and Flow analysis through Perforated tube in Carburetor               ...",
-"url": "/learnings/carburetor/",
+"url": "/projects/carburetor/",
 "image": "/images/ansys-simulation/carburetor/model2.jpg",
 "author": ""
 }
@@ -125,12 +122,15 @@
 
 {
 "category": "cfd, simulation",
-"title": "Von Karman Effect",
+"title": "Von Kármán vortex",
 "description": "During this project, the fluid flow over cylinder was observed at different R...",
-"url": "/learnings/von-karman/",
+"url": "/projects/von-karman/",
 "image": "/images/ansys-simulation/vonKarman/vonKarman2.gif",
 "author": ""
 }
+
+
+
 ,
 
 {

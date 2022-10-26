@@ -1,6 +1,6 @@
 ---
 layout: post-slider-toc
-title: Von Karman Effect
+title: Von Kármán vortex
 image: /images/ansys-simulation/vonKarman/vonKarman2.gif
 video: /images/ansys-simulation/vonKarman/vonKarman-2.mp4
 description: The fluid flow over cylinder was observed at different Reynolds number ranging from 5 to 3.5e6. The effect of Reynolds number was analysed to observe the behavior of von karman street over different flow regimes.
@@ -14,6 +14,10 @@ categories:
   - simulation
 tags:
  - CFD
+ - Simulation
+
+code:
+ - 2L1
 ---
 
 During this project, the fluid flow over cylinder was observed at different Reynolds number ranging from 5 to 3.5e6. The effect of Reynolds number was analysed to observe the behavior of von karman street over different flow regimes.

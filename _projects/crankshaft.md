@@ -10,6 +10,9 @@ categories:
   - simulation 
 tags:
  - structural
+ - Simulation
+code:
+ - 2L6
 ---
 
 ## Design and Structural Analysis of Crankshaft

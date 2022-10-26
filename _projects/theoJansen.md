@@ -10,6 +10,8 @@ categories:
   - mechanism 
 tags:
  - mechanism
+code:
+  - 1Pd
 ---
 
 ## Jansen's Linkage

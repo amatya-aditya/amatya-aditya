@@ -1,4 +1,4 @@
-<h2 class="m0a" data-aos="fade-up">My Learnings:</h2>
+<h2 class="m0a" data-aos="fade-up">Learnings:</h2>
 <!-- <div class="projects">
     {% assign sorted = site.learnings | sort: 'date' | reverse %}
     {% for item in sorted limit:6 %}
@@ -14,7 +14,7 @@
 <div class="articlecardeds">
 
     <div class="container-cards">
-        {% assign sorted = site.learnings | sort: 'date' | reverse %} {% for item in sorted limit:6 %}
+        {% assign sorted = site.learnings | sort: 'code' |  %} {% for item in sorted limit:10 %}
         <a href="{{item.url  | relative_url }}" #disqus_thread class="nostyle">
             <div class="carded">
                 <div class="carded-header">

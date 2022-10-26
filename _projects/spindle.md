@@ -10,6 +10,10 @@ categories:
   - simulation 
 tags:
  - structural
+ - Simulation
+
+code:
+ - 2L3
 ---
 
 ## Design and Structural Analysis of Spindle

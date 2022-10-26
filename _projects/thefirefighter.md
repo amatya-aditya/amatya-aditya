@@ -10,6 +10,8 @@ categories:
   - design 
 tags:
  - robotics
+code:
+  - 1Pc
 ---
 
 ## The FireFighter

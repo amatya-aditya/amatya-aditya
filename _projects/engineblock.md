@@ -9,8 +9,10 @@ image_sliders:
 categories:
   - simulation 
 tags:
- - thermal
- - structural
+ - Ansys
+ - Simulation
+code:
+ - 2L4
 ---
 
 ## Design and Analysis of Engine Block

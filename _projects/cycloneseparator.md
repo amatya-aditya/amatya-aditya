@@ -13,6 +13,8 @@ categories:
   - simulation
 tags:
  - CFD
+code:
+ - 2L7
 ---
 
 ## Design and CFD Analysis of Cyclone Separator

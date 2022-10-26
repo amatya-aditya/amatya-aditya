@@ -13,6 +13,10 @@ categories:
   - simulation
 tags:
  - CFD
+ - Simulation
+code:
+ - 2L5
+
 ---
 
 ## Design and Flow analysis through Perforated tube in Carburetor

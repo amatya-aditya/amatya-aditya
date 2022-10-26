@@ -11,6 +11,9 @@ categories:
   - Fluid 
 tags:
   - uav
+  - Major Project
+code:
+  - 1Pa
 ---
 ## Munal M-72
 
