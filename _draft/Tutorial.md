@@ -14,7 +14,9 @@
 
                                     {% endif %}
 
-For Comment <!-- {% if site.disqus %} {% include disqus.html %} {% endif %}  -->
+## For Comment 
+
+<!-- {% if site.disqus %} {% include disqus.html %} {% endif %}  -->
 
 <!-- <button class="Show">Show</button>
 <button class="Hide">Hide</button>
@@ -22,12 +24,12 @@ For Comment <!-- {% if site.disqus %} {% include disqus.html %} {% endif %}  -->
 
 
 
-To serve the jekyll -
+#  To serve the jekyll -
 bundle exec jekyll serve
 
 
 
-Add this to idex for learnings and blogs
+## Add this to idex for learnings and blogs
 
 <!-- {% include learnings.html %} -->
 
@@ -73,3 +75,17 @@ VARUN BEVERAGES LIMITED · Co-opVARUN BEVERAGES LIMITED · Co-op Apr 2019 - Jul 
         • Learned about the basics of Lean Management techniques with a focus on waste management and providing a quality product to customers. 
         • Became acquainted with various Key Performance Indicators (KPI) of the industry.• Analyzed the production by calculating Overall Equipment Efficiency. • Evaluated the machine breakdowns, their causes and suggested appropriate solutions. • Learned about the basics of Lean Management techniques with a focus on waste management and providing a quality product to customers. • Became acquainted with various Key Performance Indicators (KPI) of the industry.
         Skills: Inventory Management · Maintenance & Repair · Lean Manufacturing · Microsoft Office · Microsoft Excel
+
+
+
+
+## ToDO
+
+        - Add Yatri
+        - Add ANSyS trainer
+
+        - Add skill - matlab project (mass, spring, damper)
+        - Add Autodesk Inventor, Hyperworks, Motionsolve
+
+
+        - Edit Entegra Job Details
