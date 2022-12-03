@@ -29,7 +29,7 @@ bundle exec jekyll serve
 
 
 
-## Add this to idex for learnings and blogs
+## Add this to index(HOMEPAGE) for including learnings and blogs
 
 <!-- {% include learnings.html %} -->
 
@@ -89,3 +89,5 @@ VARUN BEVERAGES LIMITED · Co-opVARUN BEVERAGES LIMITED · Co-op Apr 2019 - Jul 
 
 
         - Edit Entegra Job Details
+
+        - Add At glance view to the homepage - profile section
