@@ -1,12 +1,9 @@
-
-
-
 {% capture the_collection %}{{page.collection}}{% endcapture %}
 {% if page.collection %}
-{% assign  document = site[the_collection]  %}
+{% assign document = site[the_collection] %}
 {% endif %}
 <!-- <h1>TITLE: {{ page.title }}</h1> -->
-{% for links in document  %}
+{% for links in document %}
 {% if links.title == page.title %}
 {% unless forloop.first %}
 {% assign prevurl = prev.url %}
@@ -30,19 +27,58 @@
     };
 </script>
 
-<div class="post-nav">
+<!-- <div class="post-nav">
 
     <p>
-        <!-- {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV {{prevurl}}</a>{% endif %}<br /> -->
-        {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV POST </a>{% endif %}<br />
+        {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV {{prevurl}}</a>{% endif %}<br /> -->
+<!-- {% if prevurl %}<a href="{{prevurl}}" class="prev"> Prev Post </a>{% endif %}<br />
 
-    </p>
+    </p> -->
 
 
-    <p>
-        <!-- {% if nexturl %}<a href="{{nexturl}}" class="nxt">NEXT {{nexturl}}</a>{% endif %} -->
-        {% if nexturl %}<a href="{{nexturl}}" class="nxt">NEXT POST</a>{% endif %}
-    </p>
+<!-- <p>
+        {% if nexturl %}<a href="{{nexturl}}" class="nxt">NEXT {{nexturl}}</a>{% endif %} -->
+<!-- {% if nexturl %}<a href="{{nexturl}}" class="nxt">Next Post</a>{% endif %}
+    </p> 
 
+</div> -->
+
+<div class="blog-prev-next-posts ">
+    <div class="row">
+        <div class="col-xl-6 col-lg-8 col-md-6">
+            <div class="pn-post-item">
+
+                {% if page.previous %}
+                <div class="thumb">
+                    <a href="{{ page.previous.url }}"><img src="{{ page.previous.image }}" alt="img"></a>
+                </div>
+                <div class="content">
+                    <span>Prev Post</span>
+                    <h5 class="title tgcommon__hover">
+                        <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                    </h5>
+                    
+
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-8 col-md-6">
+            <div class="pn-post-item next-post">
+                {% if page.next %}
+
+                <div class="thumb">
+                    <a href="{{ page.next.url }}"><img src="{{ page.next.image }}" alt="img"></a>
+                </div>
+                <div class="content">
+                    <span>Next Post</span>
+                    <h5 class="title tgcommon__hover">
+                        <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                    </h5>
+                    
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
 </div>
-

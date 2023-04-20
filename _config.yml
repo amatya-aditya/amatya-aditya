@@ -96,15 +96,20 @@ collections:
         output: true
         permalink: /projects/:path/
 
-    learnings:
+    articles:
         output: true
-        permalink: /learnings/:path/
+        permalink: /articles/:path/
+
+    portfolio:
+        output: true
+        permalink: /portfolio/:path/
 
 exclude:
     - .git
     - vendor
     - .obsidian
     - .forestry
+    - .vscode
 
 
 # These plugins are supported by github by default and can be installed locally using ruby gems
