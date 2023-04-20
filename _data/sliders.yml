@@ -161,6 +161,7 @@
     - src: /images/ansys-simulation/carburetor/vortex1.jpg
   settings:
     height: 400
+    
 
 - selector: engineblock
   bullets: true
@@ -256,12 +257,3 @@
     height: 382
 
 - selector: theoJansen
-
-- selector: intro
-  bullets: true
-  captions: true
-  images:
-    - src: /1.jpg
-    - src: /images/ansys-simulation/heat-exchanger/heat-exchanger-without-baffle.jpg
-  settings:
-    height: 382

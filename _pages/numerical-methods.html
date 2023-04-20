@@ -34,7 +34,7 @@ description: Numerical Methods using Python
 
         <div class="portfolioContainer row">
 
-            {% assign sorted = site.articles | sort: 'date' | reverse %} {% for item in sorted %}
+            {% assign sorted = site.learnings | sort: 'date' | reverse %} {% for item in sorted %}
 
             {% if item.categories[0] == "numerical-methods" %}
 
@@ -120,7 +120,7 @@ description: Numerical Methods using Python
 	<div class="container">
 		<div class="h1 text-center text-dark" id="pageHeaderTitle">Numerical Methods</div>
 
-        {% assign sorted = site.articles | sort: 'date' | reverse %} {% for item in sorted %}
+        {% assign sorted = site.learnings | sort: 'date' | reverse %} {% for item in sorted %}
 
         {% if item.categories[0] == "numerical-methods" %}
 

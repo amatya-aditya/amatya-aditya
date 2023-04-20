@@ -1,0 +1,73 @@
+<h2 class="m0a" data-aos="fade-up">Learnings:</h2>
+<!-- <div class="projects">
+    {% assign sorted = site.learnings | sort: 'date' | reverse %}
+    {% for item in sorted limit:6 %}
+    <a href="{{item.url | relative_url}}" class="nostyle p-3">
+        <div class="project borders cards rounded overflow-hidden" data-aos="fade-up">
+            <div class="project-image" style="background-image: url({{item.image | relative_url}})"></div>
+            <p class="title" style="text-align:center;">{{item.title}}</p>
+        </div>
+    </a>
+    {% endfor %}
+</div> -->
+
+<div class="articlecardeds">
+
+    <div class="container-cards">
+        {% assign sorted = site.learnings | sort: 'code' |  %} {% for item in sorted limit:10 %}
+        <a href="{{item.url  | relative_url }}" #disqus_thread class="nostyle">
+            <div class="carded">
+                <div class="carded-header">
+
+                    {% if item.video %}    
+                        <video autoplay loop muted playsinline >
+                            <source src="{{item.video | relative_url}}" alt="{{item.title}}" />
+                                            Your browser does not support the video tag.
+                        </video>
+
+                        {% else %}
+                            <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                        {% endif %}
+
+                                    
+                </div>
+                <div class="carded-body">
+
+                    <div class="carded-main">
+
+                        <h5 class="pt-2">
+                            {{item.title}}
+                        </h5>
+                        <p>
+                            {{item.description | strip_html | truncate: 110 }}
+                        </p>
+                    </div>
+
+                    <div class="tagged">
+
+                        {% if item.tags[0] %}<div class="tag tag-teal">{{item.tags[0] }}</div> {% endif %}
+                        {% if item.tags[1] %} <div class="tag tag-teal">{{item.tags[1] }}</div> {% endif %}
+                        {% if item.tags[2] %} <div class="tag tag-teal">{{item.tags[2] }}</div> {% endif %}
+                        {% if item.tags[3] %} <div class="tag tag-teal">{{item.tags[3] }}</div> {% endif %}
+                        {% if item.tags[4] %} <div class="tag tag-teal">{{item.tags[4] }}</div> {% endif %}
+                        {% if item.tags[5] %} <div class="tag tag-teal">{{item.tags[5] }}</div> {% endif %}
+
+                    </div>
+
+                    <div class="user">
+                        <div class="user-info">
+
+                            <small>
+                                <time id="postedon" datetime="{{ item.date | date_to_xmlschema }}">
+                                    Posted on {{ item.date | date: "%B %-d, %Y" }}
+                                </time>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+
+    </div>
+</div>

@@ -22,7 +22,7 @@
     --bs-gray-dark: #343a40;
     --bs-primary: #0d6efd;
     --bs-secondary: #6c757d;
-    --bs-success: #05a9a9;
+    --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
@@ -142,11 +142,6 @@ h6,
 .h6 {
     font-size: 1rem;
 } */
-
-.resume-detail {
-    margin-bottom: 1em;
-    font-size: 1em;
-}
 
 p {
     margin-top: 0;
@@ -3264,14 +3259,14 @@ fieldset:disabled .btn {
 
 .btn-success {
     color: #fff;
-    background-color: #05a9a9;
-    border-color: #05a9a9;
+    background-color: #198754;
+    border-color: #198754;
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #05a9a9;
-    border-color: #05a9a9;
+    background-color: #157347;
+    border-color: #146c43;
 }
 
 .btn-check:focus+.btn-success,
@@ -4385,7 +4380,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    color: #000;
+    color: $brand-color;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4398,7 +4393,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color:#000;
+    color: $brand-color;
 }
 
 .nav-link.disabled {
@@ -4433,8 +4428,7 @@ fieldset:disabled .btn {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-    color: $brand-color;
-    background-color: #00000033;
+    color: #252525;
     // background-color: #fff;
     // border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4451,16 +4445,6 @@ fieldset:disabled .btn {
     border-radius: 0.25rem;
     background-color: #f9f9fab6;
 }
-
-.nav-item{
-    background-color: #b8b8b860;
-    color: #080808;
-    margin-left: 0.4em;
-    margin-right: 0.4em;
-    margin-bottom: 1em;
-    
-  }
-  
 
 /* .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
@@ -7417,9 +7401,8 @@ fieldset:disabled .btn {
 
 
 .border{
-    box-shadow: 0 0px 0px -2px #00000033, 0 0px 2px #0000001a !important;
-    -webkit-box-shadow: 0 0px 0px -2px #00000033, 0 0px 2px #0000001a !important;
-    
+    box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
+    -webkit-box-shadow: 0 70px 20px -100px #00000033, 0 3px 20px #0000001a !important;
 }
 
 .border {
@@ -7429,10 +7412,10 @@ fieldset:disabled .btn {
 
 }
 
-// .border:hover{
-//     transform: translateY(-1px);
-//     background-color: #8ad2a53b !important;
-// }
+.border:hover{
+    transform: translateY(-1px);
+    background-color: #8ad2a53b !important;
+}
 
 .border-0 {
     border: 0 !important;
@@ -8365,7 +8348,7 @@ fieldset:disabled .btn {
 }
 
 .bg-success {
-    background-color: #05a9a9 !important;
+    background-color: #198754 !important;
 }
 
 .bg-info {
@@ -11848,9 +11831,11 @@ fieldset:disabled .btn {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-weight: 500;
-  text-decoration-line: underline;
 }
 
+.portfolio-box .gallary-title .title:hover {
+  color: $brand-color !important;
+}
 
 .portfolio-box:hover {
   -webkit-box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15) !important;
@@ -11879,7 +11864,7 @@ fieldset:disabled .btn {
 .portfolioFilter li a {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  line-height: initial;
+  line-height: 30px;
 }
 
 .portfolioFilter li a:hover, .portfolioFilter li a.active {
@@ -11928,13 +11913,13 @@ fieldset:disabled .btn {
    .portfolioFilter li a.active {
        color: #ffffff !important;
        background-color: $brand-color;
-       border-radius: 0.2em !important;
+       border-radius: 1em !important;
        width: inherit;
    }
 
    .portfolioFilter li a {
        background-color: #b8b8b860;
-       border-radius: 0.2em !important;
+       border-radius: 1em !important;
        width: inherit;
    }
 

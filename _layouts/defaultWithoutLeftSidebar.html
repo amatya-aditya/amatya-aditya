@@ -11,6 +11,7 @@ This layout is used in all pages. Making changes here will efect all pages. We r
 {% include head.html %}
 
 
+
 <body class="light">
 
     <script>
@@ -64,39 +65,39 @@ This layout is used in all pages. Making changes here will efect all pages. We r
             <nav>
                 <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
                 <ul class="nav-list navbar-collapse">
-    
+
                     {% assign links = site.data.navigation %}
                     {% for link in links %}
                     {% assign class = nil %}
-    
-                    {% if page.url contains link.url and link.title != "Home" %}
+                    
+                    {% if page.url contains link.url %}
                     {% assign class = 'nav-active' %}
                     {% endif %}
-    
-                    {% if link.url == '/' and page.url == '/' %}
-                    {% assign class = 'nav-active' %}
-                    {% endif %}
-    
                     {% if link.sublinks %}
+
                     <li class="{{ class }} dropdown-main">
-    
+
                         <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }} </a>
-    
+
                         <ul class="dropdown-content">
                             {% for sublink in link.sublinks %}
                             <li>
-                                <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}" {% if page.url contains sublink.url %}class="nav-active"{% endif %}>{{ sublink.title }}</a>
+                                <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
                             </li>
                             {% endfor %}
                         </ul>
                     </li>
+
+
                     {% else %}
+
                     <li class="{{ class }}">
                         <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                     </li>
+
                     {% endif %}
                     {% endfor %}
-    
+
                     <li class="searched" style="padding-top: 0.65em;">
                         <div class="searchedBox">
                             <input id="search-input" class="searchedInput" type="text" name="" placeholder="Search" />
@@ -107,20 +108,18 @@ This layout is used in all pages. Making changes here will efect all pages. We r
                     </li>
                 </ul>
             </nav>
-        </div>
     </section>
-    
 
     {% if site.data.main.color-scheme-changer-widget %} {% include
     demo-color-scheme-selector.html %} {% endif %}
 
     {% comment %} <div class="loader">
-        <div class="lds-ring">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div> {% endcomment %}
 
 
@@ -143,37 +142,22 @@ This layout is used in all pages. Making changes here will efect all pages. We r
         </div>
     </div>
 
-
-    {% include slider_styles.html %}
-    {% include slider_scripts.html %}
-    
-    <!-- Blog JS here -->
-    <script src="{{'/blog_assets/js/vendor/jquery-3.6.0.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/bootstrap.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/jquery.marquee.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/imageRevealHover.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/swiper-bundle.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/TweenMax.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/slick.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/isotope.pkgd.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/imagesloaded.pkgd.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/jquery.magnific-popup.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/ajax-form.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/wow.min.js' | relative_url }}"></script>
-    <script src="{{'/blog_assets/js/main.js' | relative_url }}"></script>
-
     <!-- Scripts  -->
     <script src="{{'/assets/js/jQuery.min.js' | relative_url }}"></script>
+
+
     <script src="{{'/assets/js/jquery.min.js' | relative_url }}"></script>
     <script src="{{'/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+
+
     <script src="{{'/assets/js/breakpoints.min.js' | relative_url }}"></script>
     <script src="{{'/assets/js/isotope.js' | relative_url }}"></script>
     <script src="{{'/assets/js/app.js' | relative_url }}"></script>
     <script src="{{'/assets/js/portfolio-filter.js' | relative_url }}"></script>
     <script src="{{'/assets/js/main.js' | relative_url }}"></script>
+
     <script src="{{'/assets/js/custom.js' | relative_url }}"></script>
     <script src="{{'/assets/js/themetoggler.js' | relative_url }}"></script>
-
 
 
 
@@ -231,8 +215,8 @@ This layout is used in all pages. Making changes here will efect all pages. We r
                 jQuery(this)
                     .find(".skillbar-bar")
                     .animate({
-                        width: jQuery(this).attr("data-percent"),
-                    },
+                            width: jQuery(this).attr("data-percent"),
+                        },
                         5000
                     );
             });

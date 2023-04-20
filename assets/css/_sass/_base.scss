@@ -17,7 +17,7 @@ body {
   font-size: $base-fs;
   font-weight: $base-fw;
   color: $color;
-  // line-height: $base-lh;
+  line-height: $base-lh;
   text-rendering: optimizeLegibility;
   height: 100%;
   @include media-query($on-palm) {
@@ -36,6 +36,7 @@ h5,
 h6 {
   font-family: $head-ff;
   font-weight: normal;
+  line-height: $base-lh;
 }
 
 h1 {
