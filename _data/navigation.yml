@@ -9,6 +9,10 @@
 
 - title: Projects
   url: /projects/
+
+# - title: Portfolio
+#   url: /portfolio/
+
   # sublinks:
     
   #   - title: Fluid Mechanics
@@ -17,23 +21,22 @@
   #   - title: Numerical Methods
   #     url: /numerical-methods/
 
-- title: Learnings
-  url: /learnings/
-  sublinks:
-    - title: All
-      url: /learnings/
+# - title: Articles
+#   url: /articles/
+  # sublinks:
+  #   - title: All
+  #     url: /articles/
 
-    - title: Numerical Methods
-      url: /numerical-methods/
+  #   - title: Numerical Methods
+  #     url: /numerical-methods/
     
-    - title: CFD
-      url: /cfd/
-
+  #   - title: CAE
+  #     url: /cae/
 
 - title: Blog
   url: /blog/
 
-- title: Leave a Message
+- title: Contact
   url: /contact/
 
 

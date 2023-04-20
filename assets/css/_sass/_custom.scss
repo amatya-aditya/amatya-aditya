@@ -1,10 +1,16 @@
 /* Add your own style here */
 .btn-primary {
     color: rgb(255, 255, 255) !important;
-    background-color: #12a2a2!important;
-    border-color: #12a2a2 !important;
+    background-color: $brand-color!important;
+    border-color: $brand-color !important;
     border-radius: 5em !important;
     padding-top: 1em;
+}
+
+.btn-primary {
+  text-decoration-line: underline;
+  background-color: $brand-color!important;
+  border-color: $brand-color !important;
 }
 
 // .btn-success {
@@ -29,8 +35,7 @@
     bottom: 8px;
     right: 8px;
     cursor: pointer;
-    color: #606060;
-    
+    color: #161616;
 }
 
 #fas:hover {
@@ -91,7 +96,8 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: white;
+  color:#080808;
+  font-weight: 900;
   height: 32px;
   min-width: 32px;
   border-radius: 8px;
@@ -120,7 +126,7 @@
   border: none;
   outline: none;
   float: left;
-  color: white;
+  color:#080808;
   font-size: 16px;
   transition: 0.4s;
   width: 0px;
@@ -133,7 +139,8 @@
 }
 
 .searchedButton {
-  color: white;
+  color:#080808;
+  font-weight: 900;
   width: 32px;
   height: 32px;
   background-color: transparent;
@@ -148,7 +155,7 @@
 }
 
 input::placeholder {
-  color: white;
+  color: #080808;
   font-family: "Lexend Deca";
   opacity: 0.5;
 }
@@ -181,7 +188,7 @@ input::placeholder {
     color: #d7dcdf;
     cursor: pointer;
     text-decoration: none;
-    background-color: #434a4e;
+    background-color: $brand-color;
     padding: 0.3em;
     border-radius: 0.1em;
 }
@@ -192,6 +199,31 @@ input::placeholder {
     box-shadow: 0 0 9px 0px #02046845;
     
 }
+
+.nav2-tabs{
+
+  border-bottom: 1px solid #dee2e6;
+  justify-content: center;
+  // position: sticky;
+  // top: 50px;
+  // z-index: 88888;
+  // background-color: #f7f7f7;
+
+}
+
+.nav2-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+  color: #495057;
+    background-color: #f7f7f7;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border: 2px #f7f7f7;
+    border: 1px solid #d7d7d7;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+
 
 .embed-pdf{
     position: relative;
@@ -283,10 +315,11 @@ $main-yellow: #a79604 !default;
 $main-yellow-rgb-015: rgba(219, 215, 6, 0.13) !default;
 $main-red: #bd150b !default;
 $main-red-rgb-015: rgba(189, 20, 11, 0.123) !default;
-$main-blue: #0076bd !default;
-$main-blue-rgb-015: rgba(0, 117, 189, 0.17) !default;
-
-
+$main-blue: #05a9a94d !default;
+$main-blue-rgb-015: #05a9a918 !default;
+$main-lightwhite: #e6e6e6 !default;
+$main-lightwhite-rgb-015: #e6e6e696 !default;
+$main-web: $brand-color;
 
 .darked {
 	background: #110f16;
@@ -314,7 +347,7 @@ a, a:hover {
   flex-wrap: wrap;
   display: flex;
   
-  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  // box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
   margin: 0 0 2rem 0;
   overflow: hidden;
@@ -348,10 +381,6 @@ a, a:hover {
   .postcard__title {
     font-size: 1.75rem;
   }
-
-
-  
-  
 
   .postcard__img_link {
     display: contents;
@@ -390,7 +419,7 @@ a, a:hover {
 
     .tag__item {
       display: inline-block;
-      background: rgba(83, 83, 83, 0.4);
+      background: #53535326;
       border-radius: 3px;
       padding: 2.5px 10px;
       margin: 0 5px 5px 0;
@@ -398,9 +427,10 @@ a, a:hover {
       user-select: none;
       transition: background-color 0.3s;
       font-weight: 900;
+      
 
       &:hover {
-        background: rgba(83, 83, 83, 0.8);
+        background: $main-web;
       }
     }
   }
@@ -526,9 +556,11 @@ a, a:hover {
 .postcard .postcard__tagbox .green.play:hover {
 	background: $main-green;
 	color: black;
+  text-decoration-line: underline;
 }
 .green .postcard__title:hover {
 	color: $main-green;
+  text-decoration-line: underline;
 }
 .green .postcard__bar {
 	background-color: $main-green;
@@ -544,11 +576,54 @@ a, a:hover {
 	background-image: linear-gradient(30deg, $main-green-rgb-015, transparent 65%);
 }
 
+.postcard .postcard__tagbox .lightwhite.play:hover {
+	background: $main-web;
+	color: black;
+  text-decoration-line: underline;
+}
+.lightwhite .postcard__title:hover {
+	// color: $main-web;
+  text-decoration-line: underline;
+}
+.lightwhite .postcard__bar {
+	background-color: $main-web;
+}
+.lightwhite::before {
+	background-image: linear-gradient(
+		-30deg,
+		$main-lightwhite-rgb-015,
+		transparent 65%
+	);
+}
+
+.lightwhite:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, $main-lightwhite-rgb-015, transparent 65%);
+}
+
+@media screen and (min-width: 769px) {
+	.lightwhtie::before {
+		background-image: linear-gradient(
+			-80deg,
+			$main-lightwhite-rgb-015,
+			transparent 65%
+		);
+	}
+	.lightwhite:nth-child(2n)::before {
+		background-image: linear-gradient(
+			80deg,
+			$main-lightwhite-rgb-015,
+			transparent 65%
+		);
+	}
+}
+
 .postcard .postcard__tagbox .blue.play:hover {
 	background: $main-blue;
+  text-decoration-line: underline;
 }
 .blue .postcard__title:hover {
 	color: $main-blue;
+  text-decoration-line: underline;
 }
 .blue .postcard__bar {
 	background-color: $main-blue;
@@ -562,9 +637,11 @@ a, a:hover {
 
 .postcard .postcard__tagbox .red.play:hover {
 	background: $main-red;
+  text-decoration-line: underline;
 }
 .red .postcard__title:hover {
 	color: $main-red;
+  text-decoration-line: underline;
 }
 .red .postcard__bar {
 	background-color: $main-red;
@@ -578,10 +655,12 @@ a, a:hover {
 
 .postcard .postcard__tagbox .yellow.play:hover {
 	background: $main-yellow;
+  text-decoration-line: underline;
 	color: black;
 }
 .yellow .postcard__title:hover {
 	color: $main-yellow;
+  text-decoration-line: underline;
 }
 .yellow .postcard__bar {
 	background-color: $main-yellow;
@@ -655,21 +734,44 @@ a, a:hover {
   list-style: none;
   margin: 0.2em 0;
 }
+
+
 .mb--40 li:before {
   content: "\2713";
   display: inline-block;
   position: relative;
   top: 0px;
-  width: 18px;
-  height: 18px;
+  width: 10px;
+  height: 10px;
   margin-right: 8px;
   padding: 1px;
-  font-size: 12px;
+  font-size: 0px;
   font-weight: bold;
-  line-height: 12px;
-  color: #fff;
-  border: 2px solid #12a2a2;
+  line-height: 10px;
+  color: $brand-color;
+  border: 2px solid $brand-color;
   border-radius: 50%;
   text-align: center;
-  background-color:#12a2a2;
+  background-color:$brand-color;
 }
+
+.research {
+  border-radius: 20px;
+  // background: #12dbd11f;
+  background: #4548481f;
+  width: fit-content;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+  
+}
+
+
+  
+  
+  
+  
+
+ 
+  
+ 

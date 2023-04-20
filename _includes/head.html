@@ -31,47 +31,36 @@
   <meta property="og:image" content="{{site.url}}{{site.default-image}}" />
   {% endif %}
 
-  <!-- Custom CSS -->
-
-
-  <link rel="stylesheet" href="{{'/assets/font-awesome-4.7.0/css/academicons.min.css' | relative_url }}" />
   
 
-  <link
-    rel="stylesheet"
-    href="{{'/assets/css/main-default.css' | relative_url }}"
-  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{'/assets/font-awesome-4.7.0/css/academicons.min.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{'/assets/css/main-default.css' | relative_url }}"/>
+
+
+     <!-- Custom Blog CSS here -->
+     <link rel="stylesheet" href="{{'/blog_assets/css/bootstrap.min.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/bootstrap.min.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/bootstrap.min.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/animate.min.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/magnific-popup.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/fontawesome-all.min.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/imageRevealHover.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/swiper-bundle.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/flaticon.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/slick.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/spacing.css'| relative_url }}">
+     <link rel="stylesheet" href="{{'/blog_assets/css/main.css'| relative_url }}">
+
+
+   
+
   {% if site.data.main.color-scheme == 'default' %}
-  <link
-    id="color-scheme"
-    rel="stylesheet"
-    href="{{'/assets/css/main-default.css' | relative_url }}"
-  />
-  {% elsif site.data.main.color-scheme == 'blue' %}
-  <link
-    id="color-scheme"
-    rel="stylesheet"
-    href="{{'/assets/css/main-blue.css' | relative_url }}"
-  />
-  {% elsif site.data.main.color-scheme == 'purple' %}
-  <link
-    id="color-scheme"
-    rel="stylesheet"
-    href="{{'/assets/css/main-purple.css' | relative_url }}"
-  />
-  {% elsif site.data.main.color-scheme == 'green' %}
-  <link
-    id="color-scheme"
-    rel="stylesheet"
-    href="{{'/assets/css/main-green.css' | relative_url }}"
-  />
-  {% elsif site.data.main.color-scheme == 'orange' %}
-  <link
-    id="color-scheme"
-    rel="stylesheet"
-    href="{{'/assets/css/main-orange.css' | relative_url }}"
-  />
+  <link id="color-scheme" rel="stylesheet" href="{{'/assets/css/main-default.css' | relative_url }}"/>
   {% endif %}
+
+
+
 
   <!-- Icons -->
   <!-- Replace these icons with your own. -->
@@ -105,7 +94,8 @@
   <link
     rel="icon"
     href="{{'/assets/img/favicon.ico' | relative_url }}"
-    type="image/x-icon"/>
+    type="image/x-icon"
+    />
 
   {% include analytics.html %}
 

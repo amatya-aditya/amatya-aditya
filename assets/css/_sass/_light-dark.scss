@@ -2,17 +2,20 @@
 
 // body.light {
 
-    body{
+body{
 
   background-color: #cac6c6c2;
   color: #0c0c0c;
 
 .navigation {
-    background: #434a4e;
+    // background: #434a4e;
+    background-color: #f7f7f7;
 }
 
 nav ul li a, nav ul li a:visited {
-    color: #fdfcfc;
+    // color: #fdfcfc;
+    color:#080808;
+    font-weight: bold;
 }
 
 .highlight {
@@ -42,7 +45,7 @@ table tr th {
 }
 
 .shadow {
-    box-shadow: 0 0.5rem 1rem #00000026 !important;
+    box-shadow: 0 0rem 0.2rem 0 #00000026 !important;
 }
 
 .outline {
@@ -64,32 +67,58 @@ table tr th {
 .border {
     border: 1px solid #dee2e6 !important;
     background-color: #f4f4f4;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.border-content {
+    border: 1px solid #d1d1d1c5 !important;
+    background-color: #eeeded !important;
+    color: #0c0c0c !important;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
 .active {
-    background: #bfbfbf9e;
+    background-color: $brand-color !important;
+    color: #ffffff !important;
+    
+}
+
+.active-content {
+    background-color: $brand-color !important;
+    color: #080808 !important;
+    
 }
 
 .rounded a {
-    color: #12a2a2;
+    color: $brand-color;
 
 }
 
-.border:hover{
+
+}
+
+
+
+.bordered:hover{
     transform: translateY(-1px)!important;
-    background-color: #12a2a213 !important;
+    background-color: $h-color !important;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
+
 .portfolioFilter li a {
     background-color: #b8b8b860;
 }
 
 .portfolioFilter li a:hover, .portfolioFilter li a.active {
     color: #f7f7f7 !important;
-    background-color: #202325;
+    background-color: $brand-color;
 }
 
 #fas {
-    color: #606060;
+    color: $brand-color;
 }
 
 .tag-teal {
@@ -97,8 +126,8 @@ table tr th {
 }
 
 .tag {
-    background: #cccccc;
-    color: #080808;
+    background: $h-color;
+    color: #000;
 }
 #thread__container{
         background-color: #dadada;
@@ -110,10 +139,35 @@ table tr th {
     box-shadow: 0 0 9px 0px #02046845;
     
 }
+
+
+
+
+.border:active{
+    background-color: $h-color !important;
 }
 
 
-
+a#pills-cloud-tab.rounded.active {
+    color: #444 !important;
+    background-color: $brand-color !important;
+    }
+  
+  a#pills-smart-tab.rounded.active {
+    color: #444 !important;
+    background-color: $brand-color !important;
+    }
+  
+  a#pills-apps-tab.rounded.active {
+    color: #444 !important;
+    background-color: $brand-color !important;
+    }
+  
+  a#pills-rounded-tab.rounded.active {
+    color: #444 !important;
+    background-color: $brand-color !important;
+    }
+   
 /// Body Dark
 
 // body.dark {
