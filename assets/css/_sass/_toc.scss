@@ -1,0 +1,102 @@
+/***
+ *
+ *    ,--------.       ,--.   ,--.                   ,---.
+ *    '--.  .--',--,--.|  |-. |  | ,---.      ,---. /  .-'
+ *       |  |  ' ,-.  || .-. '|  || .-. :    | .-. ||  `-,
+ *       |  |  \ '-'  || `-' ||  |\   --.    ' '-' '|  .-'
+ *       `--'   `--`--' `---' `--' `----'     `---' `--'
+ *
+ *
+ *     ,-----.                 ,--.                   ,--.
+ *    '  .--./ ,---. ,--,--, ,-'  '-. ,---. ,--,--, ,-'  '-. ,---.
+ *    |  |    | .-. ||      \'-.  .-'| .-. :|      \'-.  .-'(  .-'
+ *    '  '--'\' '-' '|  ||  |  |  |  \   --.|  ||  |  |  |  .-'  `)
+ *     `-----' `---' `--''--'  `--'   `----'`--''--'  `--'  `----'
+ *
+ */
+
+.toc {
+    font-size: $small-fs;
+    border: 1px dashed $grey-color;
+    float: right;
+    margin-right: -2em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    background-color: white;
+        @include media-query($on-palm) {
+        float: none;
+        margin: 0;
+        margin-bottom: 1em;
+        font-size: $small-fs * 0.9;
+    }
+    &:before {
+        content: "Contents";
+        font-weight: bold;
+        line-height: 1.8;
+        font-size: $head-ff;
+    }
+
+    li {
+        list-style: decimal;
+        margin: 0;
+
+    }
+
+    // position:sticky !important;
+    // top:1em;
+    // width:18em;
+
+
+}
+
+.relativeposition{
+    position:relative;
+}
+
+.toc2 {
+    font-size: 1em !important;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: white;
+        @include media-query($on-palm) {
+        float: none;
+        margin: 0;
+        margin-bottom: 1em;
+        font-size: $small-fs * 0.9;
+    }
+    &:before {
+        content: "On this page";
+        text-decoration:underline;
+        font-weight: bold;
+        line-height: 1.8;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    li {
+        list-style: decimal;
+        margin: 0;
+    }
+}
+
+.toc2 li a:hover{
+    text-decoration: underline !important;
+}
+
+
+
+
+
+
+
+.toc_active{
+    color: $brand-color !important;
+    background-color: rgba(206, 206, 202, 0);
+    font-weight: 600;
+}
+
+
+

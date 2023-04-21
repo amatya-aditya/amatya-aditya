@@ -1,0 +1,333 @@
+---
+layout: pageWithoutLeftSidebar
+title: Computer Added Engineering
+permalink: /cae/
+description: 
+---
+
+
+{% comment %} <section id="closepad" id="first" class="main special" class="section bg-light" id="projects">
+    <div class="container">
+
+        <div class="portfolioContainer row">
+
+            {% assign sorted = site.articles | sort: 'date' | reverse %} {% for item in sorted %}
+
+            {% if item.categories[0] == "cae" %}
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+
+
+                <div class="articlecardeds">
+
+                    <div class="container-cards">
+
+                        <a href="{{item.url  | relative_url }}" class="nostyle">
+                            <div class="carded">
+                                <div class="carded-header">
+                                    <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                                </div>
+                                <div class="carded-body">
+
+                                    <div class="carded-main">
+
+                                        <h5 class="pt-2">
+                                            {{item.title}}
+                                        </h5>
+                                        <p>
+                                            {{item.description | strip_html | truncate: 110 }}
+                                        </p>
+
+
+                                    </div>
+
+                                    <div class="tagged">
+
+                                        {% if item.tags[0] %}<div class="tag tag-teal">{{item.tags[0] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[1] %} <div class="tag tag-teal">{{item.tags[1] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[2] %} <div class="tag tag-teal">{{item.tags[2] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[3] %} <div class="tag tag-teal">{{item.tags[3] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[4] %} <div class="tag tag-teal">{{item.tags[4] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[5] %} <div class="tag tag-teal">{{item.tags[5] }}</div>
+                                        {% endif %}
+
+                                    </div>
+
+                                    <div class="user">
+                                        <div class="user-info">
+
+                                            <small>
+                                                <time id="postedon" datetime="{{ item.date | date_to_xmlschema }}">
+                                                    Posted on {{ item.date | date: "%B %-d, %Y" }}
+                                                </time>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+</section> {% endcomment %}
+
+
+
+<section class="lighted">
+	<div class="container">
+		<div class="h1 text-center text-dark" id="pageHeaderTitle">Computational Fluid Dynamics</div>
+
+        {% assign sorted = site.articles | sort: 'date' | reverse %} {% for item in sorted %}
+
+        {% if item.categories[0] == "cae" %}
+
+        {% if item.location == "n" %}
+
+		<article class="postcard light {{item.color}}">
+            
+			<a class="postcard__img_link" href="{{item.url  | relative_url }}">
+                
+				<div class="postcard__img">
+
+                {% if item.video %}    
+                        <video width="320" height="240" autoplay loop muted playsinline >
+                            <source src="{{item.video | relative_url}}" alt="{{item.title}}" />
+                                            Your browser does not support the video tag.
+                        </video>
+
+                {% else %}
+                            <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                
+                {% endif %}
+                
+                </div>      
+                
+			</a>
+            
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title {{item.color}}"><a href="{{item.url  | relative_url }}">{{item.title}}</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="{{ item.date | date_to_xmlschema }}">
+						<i class="fas fa-calendar-alt mr-2"></i>{{ item.date | date: "%B %-d, %Y" }}
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">{{item.description | strip_html | truncate: 160 }}</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>
+                                        {% if item.tags[0] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[1] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[2] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[3] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[4] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[5] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        
+                    </li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>{% include reading-time.html %}
+                    </li>
+					<li class="tag__item play {{item.color}}">
+						<a href="{{item.url  | relative_url }}"><i class="fas fa-book mr-2"></i>Read More</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+
+        {% endif %}
+
+        
+
+        {% if item.location == "2n+1" %}
+		<article class="postcard light {{item.color}}">
+			<a class="postcard__img_link" href="{{item.url  | relative_url }}">
+
+                <div class="postcard__img">
+
+                {% if item.video %}    
+                        <video width="100%" height="260" autoplay loop muted playsinline >
+                            <source src="{{item.video | relative_url}}" alt="{{item.title}}" />
+                                            Your browser does not support the video tag.
+                        </video>
+
+                {% else %}
+                            <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                
+                {% endif %}
+                
+                </div>  
+				
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title {{item.color}}"><a href="{{item.url  | relative_url }}">{{item.title}}</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="{{ item.date | date_to_xmlschema }}">
+						<i class="fas fa-calendar-alt mr-2"></i>{{ item.date | date: "%B %-d, %Y" }}
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">{{item.description | strip_html | truncate: 160 }}</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>
+                                        {% if item.tags[0] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[1] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[2] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[3] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[4] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        {% if item.tags[5] %}{{item.tags[0] }}
+                                        {% endif %}
+                                        
+                    </li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>{% include reading-time.html %}
+                    </li>
+					<li class="tag__item play {{item.color}}">
+						<a href="{{item.url  | relative_url }}"><i class="fas fa-book mr-2"></i>Read More</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+        {% endif %}
+        
+            {% endif %}
+            {% endfor %}
+
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {% comment %} Featured Post {% endcomment %}
+
+{% comment %} <div class="wrappered">
+	<ul id="scrollbar-1" class="list-reset" >
+
+        {% assign sorted = site.articles | sort: 'date' | reverse %} {% for item in sorted %}
+
+            {% if item.categories[0] == "cae" %}
+
+            <div class="
+                {% if item.categories[0] %} {{item.categories[0] }}{% endif %}
+                {% if item.categories[1] %} {{item.categories[1] }}{% endif %}
+                {% if item.categories[2] %} {{item.categories[2] }}{% endif %}
+                {% if item.categories[5] %} {{item.categories[5] }}{% endif %}
+                {% if item.categories[6] %} {{item.categories[6] }}{% endif %}
+                {% if item.categories[7] %} {{item.categories[7] }}{% endif %}
+                {% if item.categories[8] %} {{item.categories[8] }}{% endif %}">
+
+		<li class="featured-active">
+
+
+            
+
+            
+
+
+                        <a>{{item.title}}
+                            <div>
+                                
+                                
+
+                                    <div>
+
+
+
+                                    </div>
+
+                                    <div class="tagged">
+
+                                        {% if item.tags[0] %}<div class="tag tag-teal">{{item.tags[0] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[1] %} <div class="tag tag-teal">{{item.tags[1] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[2] %} <div class="tag tag-teal">{{item.tags[2] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[3] %} <div class="tag tag-teal">{{item.tags[3] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[4] %} <div class="tag tag-teal">{{item.tags[4] }}</div>
+                                        {% endif %}
+                                        {% if item.tags[5] %} <div class="tag tag-teal">{{item.tags[5] }}</div>
+                                        {% endif %}
+
+                                    </div>
+
+                                    <div class="user">
+                                        <div class="user-info">
+
+                                            <small>
+                                                <time id="postedon" datetime="{{ item.date | date_to_xmlschema }}">
+                                                    Posted on {{ item.date | date: "%B %-d, %Y" }}
+                                                </time>
+                                            </small>
+                                        </div>
+                                    </div>
+                                 <a href="{{item.url  | relative_url }}" class="nostyle">Read More</a>
+
+                                
+                            </div>
+                        </a>
+
+                        
+
+                                <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+                                <img src="{{item.image | relative_url}}" alt="{{item.title}}" />
+
+
+                
+
+
+
+            </div>
+
+            {% endif %}
+            {% endfor %}
+			
+		</li>
+        
+        
+		
+	</ul>
+	<div class="featured-image"></div>
+</div> {% endcomment %}

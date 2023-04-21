@@ -1,0 +1,43 @@
+- title: Home
+  url: /
+
+- title: Resume
+  url: /resume/
+
+- title: Publications
+  url: /publications/
+
+- title: Projects
+  url: /projects/
+
+# - title: Portfolio
+#   url: /portfolio/
+
+  # sublinks:
+    
+  #   - title: Fluid Mechanics
+  #     url: /fluid-mechanics/
+
+  #   - title: Numerical Methods
+  #     url: /numerical-methods/
+
+# - title: Articles
+#   url: /articles/
+  # sublinks:
+  #   - title: All
+  #     url: /articles/
+
+  #   - title: Numerical Methods
+  #     url: /numerical-methods/
+    
+  #   - title: CAE
+  #     url: /cae/
+
+- title: Blog
+  url: /blog/
+
+- title: Contact
+  url: /contact/
+
+
+  
