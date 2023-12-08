@@ -3,12 +3,13 @@ layout: post-slider-toc
 title: Impeller Vane
 image: /images/projects/impeller/boundary.PNG
 description: This project was submitted as a partial fulfillment for Turbomachinery class. The project was intended to provide the basic knowledge of the radial vane impeller. 
-date:  2019-03-10
+date:  2018-03-10
 location: 2n+1
 color: blue
 image_sliders:
   - impeller
 categories:
+  - academic-project
   - design 
 tags:
  - CFD

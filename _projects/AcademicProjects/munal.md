@@ -9,6 +9,7 @@ layout: post-slider-toc
 image_sliders:
   - munal
 categories:
+  - academic-project
   - UAV
   - Fluid 
 tags:

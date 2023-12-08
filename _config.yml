@@ -38,7 +38,7 @@ include:
     - _pages
 
 # Google Ananlytics Tracker.
-# Sign up with Google analytics and replce with your analytics ID.
+# Sign up with Google analytics and replace with your analytics ID.
 analytics: G-VH8HKD81EQ
 
 # Table of contents in each post
@@ -99,6 +99,10 @@ collections:
     articles:
         output: true
         permalink: /articles/:path/
+
+    personal:
+        output: true
+        permalink: /personal/:path/
 
     portfolio:
         output: true

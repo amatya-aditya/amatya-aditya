@@ -223,13 +223,20 @@ input::placeholder {
     border-bottom: 1px solid #f7f7f7;
 }
 
-
-
 .embed-pdf{
-    position: relative;
+  // position: relative;
+  display: block;
+  height: 75vh !important;
+  padding-bottom: 1%;
+  overflow: hidden;
+}
+
+
+.resume-pdf{
+    // position: relative;
     display: block;
-    height: 550px !important;
-    padding: 1%;
+    height: 750px !important;
+    padding-bottom: 30%;
     overflow: hidden;
 }
 

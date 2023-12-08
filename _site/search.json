@@ -1,7 +1,7 @@
 [
 
 {
-"category": "design",
+"category": "academic-project, design",
 "title": "The FireFighter",
 "description": "The FireFighterThe FireFighter was an autonomous prototype robot that could s...",
 "url": "/projects/AcademicProjects/thefirefighter/",
@@ -11,47 +11,17 @@
 ,
 
 {
-"category": "design",
-"title": "BAT",
-"description": "Buoyancy Assisted Trash Cleaner (BAT)Buoyancy Assisted Trash Cleaner (BAT) wa...",
-"url": "/projects/AcademicProjects/bat/",
-"image": "/images/projects/bat/2.png",
-"author": ""
-}
-,
-
-{
-"category": "simulation",
+"category": "mini-projects, simulation",
 "title": "Crankshaft",
 "description": "Design and Structural Analysis of Crankshaft                ",
-"url": "/projects/AcademicProjects/crankshaft/",
-"image": "/images/ansys-simulation/crankshaft/model.jpg",
+"url": "/projects/crankshaft/",
+"image": "/images/ansys-simulation/crankshaft/forged-steel-3.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "mechanism",
-"title": "Jansen's Linkage",
-"description": "Jansen’s LinkageThe work was intended to mimic the walking motion of the anim...",
-"url": "/projects/AcademicProjects/theoJansen/",
-"image": "/images/projects/theoJansen/theoJansen2.gif",
-"author": ""
-}
-,
-
-{
-"category": "simulation",
-"title": "Wheel Rim",
-"description": "Design and Structural Analysis of Wheel Rim                    ",
-"url": "/projects/AcademicProjects/wheelrim/",
-"image": "/images/ansys-simulation/wheel-rim/Model.png",
-"author": ""
-}
-,
-
-{
-"category": "design",
+"category": "academic-project, design",
 "title": "Impeller Vane",
 "description": "Radial Vane ImpellerThis project was submitted as a partial fulfillment for T...",
 "url": "/projects/AcademicProjects/impeller/",
@@ -61,27 +31,57 @@
 ,
 
 {
-"category": "simulation",
+"category": "academic-project, design",
+"title": "BAT",
+"description": "Buoyancy Assisted Trash Cleaner (BAT)Buoyancy Assisted Trash Cleaner (BAT) wa...",
+"url": "/projects/AcademicProjects/bat/",
+"image": "/images/projects/bat/2.png",
+"author": ""
+}
+,
+
+{
+"category": "academic-project, mechanism",
+"title": "Jansen's Linkage",
+"description": "Jansen’s LinkageThe work was intended to mimic the walking motion of the anim...",
+"url": "/projects/AcademicProjects/theoJansen/",
+"image": "/images/projects/theoJansen/theoJansen2.gif",
+"author": ""
+}
+,
+
+{
+"category": "mini-projects, simulation",
+"title": "Wheel Rim",
+"description": "Design and Structural Analysis of Wheel Rim                    ",
+"url": "/projects/wheelrim/",
+"image": "/images/ansys-simulation/wheel-rim/1 b.png",
+"author": ""
+}
+,
+
+{
+"category": "mini-projects, simulation",
 "title": "Spindle",
 "description": "Design and Structural Analysis of Spindle                      ",
-"url": "/projects/AcademicProjects/spindle/",
+"url": "/projects/spindle/",
 "image": "/images/ansys-simulation/Spindle/model.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "simulation",
+"category": "mini-projects, simulation",
 "title": "Engine Block",
 "description": "Design and Analysis of Engine Block                ",
-"url": "/projects/AcademicProjects/engineblock/",
-"image": "/images/ansys-simulation/engine-block/model.png",
+"url": "/projects/engineblock/",
+"image": "/images/ansys-simulation/engine-block/thermal-1.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "UAV, Fluid",
+"category": "academic-project, UAV, Fluid",
 "title": "Munal M-72",
 "description": "Munal M-72Munal M-72 is a fixed-wing RC plane developed as the final year pro...",
 "url": "/projects/AcademicProjects/munal/",
@@ -91,40 +91,40 @@
 ,
 
 {
-"category": "cfd, simulation",
+"category": "mini-projects, cfd, simulation",
 "title": "Heat Exchanger",
 "description": "Design and CFD Analysis of Heat Exchanger                          ",
-"url": "/projects/AcademicProjects/heat-exchanger/",
-"image": "/images/ansys-simulation/heat-exchanger/modelwithbaffle.jpg",
+"url": "/projects/heat-exchanger/",
+"image": "/images/ansys-simulation/heat-exchanger/temperature1.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "cfd, simulation",
+"category": "mini-projects, cfd, simulation",
 "title": "Cyclone Separator",
 "description": "Design and CFD Analysis of Cyclone Separator            ",
-"url": "/projects/AcademicProjects/cycloneseparator/",
-"image": "/images/ansys-simulation/cyclone separator/model.jpg",
+"url": "/projects/cycloneseparator/",
+"image": "/images/ansys-simulation/cyclone separator/velocity.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "cfd, simulation",
+"category": "mini-projects, cfd, simulation",
 "title": "Carburetor",
 "description": " Design and Flow analysis through Perforated tube in Carburetor              ...",
-"url": "/projects/AcademicProjects/carburetor/",
-"image": "/images/ansys-simulation/carburetor/model2.jpg",
+"url": "/projects/carburetor/",
+"image": "/images/ansys-simulation/carburetor/volume-streamline.jpg",
 "author": ""
 }
 ,
 
 {
-"category": "cfd, simulation",
+"category": "mini-projects, cfd, simulation",
 "title": "Von Kármán vortex",
 "description": "During this project, the fluid flow over cylinder was observed at different R...",
-"url": "/projects/AcademicProjects/von-karman/",
+"url": "/projects/von-karman/",
 "image": "/images/ansys-simulation/vonKarman/vonKarman2.gif",
 "author": ""
 }
