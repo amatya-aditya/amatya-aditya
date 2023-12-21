@@ -4,7 +4,7 @@
 "category": "academic-project, design",
 "title": "The FireFighter",
 "description": "The FireFighterThe FireFighter was an autonomous prototype robot that could s...",
-"url": "/projects/AcademicProjects/thefirefighter/",
+"url": "/projects/thefirefighter/",
 "image": "/images/projects/firefighter/thefirefighter.png",
 "author": ""
 }
@@ -24,7 +24,7 @@
 "category": "academic-project, design",
 "title": "Impeller Vane",
 "description": "Radial Vane ImpellerThis project was submitted as a partial fulfillment for T...",
-"url": "/projects/AcademicProjects/impeller/",
+"url": "/projects/impeller/",
 "image": "/images/projects/impeller/boundary.PNG",
 "author": ""
 }
@@ -34,7 +34,7 @@
 "category": "academic-project, design",
 "title": "BAT",
 "description": "Buoyancy Assisted Trash Cleaner (BAT)Buoyancy Assisted Trash Cleaner (BAT) wa...",
-"url": "/projects/AcademicProjects/bat/",
+"url": "/projects/bat/",
 "image": "/images/projects/bat/2.png",
 "author": ""
 }
@@ -44,7 +44,7 @@
 "category": "academic-project, mechanism",
 "title": "Jansen's Linkage",
 "description": "Jansen’s LinkageThe work was intended to mimic the walking motion of the anim...",
-"url": "/projects/AcademicProjects/theoJansen/",
+"url": "/projects/theoJansen/",
 "image": "/images/projects/theoJansen/theoJansen2.gif",
 "author": ""
 }
@@ -84,7 +84,7 @@
 "category": "academic-project, UAV, Fluid",
 "title": "Munal M-72",
 "description": "Munal M-72Munal M-72 is a fixed-wing RC plane developed as the final year pro...",
-"url": "/projects/AcademicProjects/munal/",
+"url": "/projects/munal/",
 "image": "/images/projects/munal/fabricated-model.jpg",
 "author": ""
 }
@@ -126,6 +126,16 @@
 "description": "During this project, the fluid flow over cylinder was observed at different R...",
 "url": "/projects/von-karman/",
 "image": "/images/ansys-simulation/vonKarman/vonKarman2.gif",
+"author": ""
+}
+,
+
+{
+"category": "python-project, computational mechanics, programming",
+"title": "2D Mohr's Circle",
+"description": "Understanding stress and strain in materials is crucial in various engineerin...",
+"url": "/projects/2D%20Mohr's%20Circle/",
+"image": "/images/python/2dmohrscircle.png",
 "author": ""
 }
 

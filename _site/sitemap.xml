@@ -13,7 +13,7 @@
 <lastmod>2021-09-04T00:00:00+05:45</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/projects/AcademicProjects/thefirefighter/</loc>
+<loc>http://localhost:4000/projects/thefirefighter/</loc>
 <lastmod>2017-03-16T00:00:00+05:45</lastmod>
 </url>
 <url>
@@ -21,15 +21,15 @@
 <lastmod>2018-02-12T00:00:00+05:45</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/projects/AcademicProjects/impeller/</loc>
+<loc>http://localhost:4000/projects/impeller/</loc>
 <lastmod>2018-03-10T00:00:00+05:45</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/projects/AcademicProjects/bat/</loc>
+<loc>http://localhost:4000/projects/bat/</loc>
 <lastmod>2018-05-21T00:00:00+05:45</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/projects/AcademicProjects/theoJansen/</loc>
+<loc>http://localhost:4000/projects/theoJansen/</loc>
 <lastmod>2018-08-11T00:00:00+05:45</lastmod>
 </url>
 <url>
@@ -45,7 +45,7 @@
 <lastmod>2019-07-11T00:00:00+05:45</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/projects/AcademicProjects/munal/</loc>
+<loc>http://localhost:4000/projects/munal/</loc>
 <lastmod>2019-08-18T00:00:00+05:45</lastmod>
 </url>
 <url>
@@ -63,6 +63,10 @@
 <url>
 <loc>http://localhost:4000/projects/von-karman/</loc>
 <lastmod>2021-08-18T00:00:00+05:45</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/2D%20Mohr&apos;s%20Circle/</loc>
+<lastmod>2022-02-18T00:00:00+05:45</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/articles/</loc>
